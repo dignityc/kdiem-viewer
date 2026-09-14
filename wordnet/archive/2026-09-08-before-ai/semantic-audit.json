@@ -1,0 +1,4645 @@
+{
+  "draftMeanings": 121,
+  "pendingRecords": 161,
+  "polysemousEntries": 1,
+  "metadataOnRecords": true,
+  "everySynsetDefined": true,
+  "occurrenceSenseMapping": "not_disambiguated",
+  "sourceTerms": 11812,
+  "includedSourceTerms": 281,
+  "editorialConcepts": 17,
+  "fieldRows": 11652,
+  "matchedRows": 7890,
+  "includedFieldRows": 2538,
+  "definitionReviewed": 120,
+  "needsReview": 161,
+  "missingDefinitions": 156,
+  "hypernyms": 129,
+  "validation": {
+    "hypernymAcyclic": true,
+    "endpointReferencesValid": true,
+    "singleSynsetPerSense": true
+  },
+  "decisions": [
+    {
+      "term": "등록부대코드",
+      "source": "MDR 용어표준 NO 2431 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "특수정보자료여부",
+      "source": "MDR 용어표준 NO 10300 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "보고일시",
+      "source": "MDR 용어표준 NO 3380 · 1차",
+      "definition": "일의 내용이나 결과를 말이나 글로 알린 날짜와 시각",
+      "parent": "datetime",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "통합표적코드",
+      "source": "MDR 용어표준 NO 10225 · 1차",
+      "definition": "정보본부에서 관리하는 표적에 대한 통합 목록",
+      "parent": null,
+      "status": "needs_review",
+      "note": "원문 설명은 코드 자체가 아니라 통합 목록을 설명한다. 코드와 코드목록의 의미를 구분한 뒤 관계를 결정해야 한다."
+    },
+    {
+      "term": "보고부대코드",
+      "source": "MDR 용어표준 NO 3353 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "보고일자",
+      "source": "MDR 용어표준 NO 3382 · 1차",
+      "definition": "1. 일에 관한 내용이나 결과를 말이나 글로 알린 날.\r\n\r\n2. 주어진 임무에 대하여 그 결과나 내용을 상급자나 명령을 내린 사람 또는 기관에게 알린 날",
+      "parent": "date",
+      "status": "draft_meaning",
+      "note": "두 설명은 보고한 날이라는 공통 의미를 갖는다. 별도 의미 분리는 현재 근거만으로 확정하지 않는다. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "계획ID",
+      "source": "MDR 용어표준 NO 593 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적번호",
+      "source": "MDR 용어표준 NO 10641 · 1차",
+      "definition": "화력통제부대가 표적물에 부여하는 참조번호.",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "항공기종명",
+      "source": "MDR 용어표준 NO 11110 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "접미번호",
+      "source": "MDR 용어표준 NO 8305 · 1차",
+      "definition": "어떤 단어의 뒤에 붙어 뜻을 첨가하기 위한 번호(체계)",
+      "parent": null,
+      "status": "needs_review",
+      "note": "원문은 단어의 접미 표현과 번호 체계를 함께 언급한다. 실제 필드 사용 문맥 확인 전 상위 개념을 결정하지 않는다."
+    },
+    {
+      "term": "지리좌표",
+      "source": "MDR 용어표준 NO 8966 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "군대부호코드",
+      "source": "MDR 용어표준 NO 1236 · 1차",
+      "definition": "아군과 적군 또는 그들의 전술적 움직임과 작전행동을 나타내는 부호를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "등록자군번",
+      "source": "MDR 용어표준 NO 2449 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적좌표",
+      "source": "MDR 용어표준 NO 10702 · 1차",
+      "definition": "목표로 삼는 물건 또는 표지로 삼는 표의 평면이나 공간 안의 임의의 점의 위치를 나타내는 수나 수의 짝.",
+      "parent": "coordinate",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "외국명코드",
+      "source": "MDR 용어표준 NO 6116 · 1차",
+      "definition": "전 세계의 나라와 부속영토, 나라의 주요 구성 단위의 명칭에 고유하게 부여한 코드로 ISO3166-1에서 제시한 국제표준코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "적부대코드",
+      "source": "MDR 용어표준 NO 7902 · 1차",
+      "definition": "MIMS가 관리하는 적부대에 대한 구분 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "보고서번호",
+      "source": "MDR 용어표준 NO 3360 · 1차",
+      "definition": "보고되는 문서를 관리하기 위해 부여되는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "정보요구ID",
+      "source": "MDR 용어표준 NO 8370 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "등록일시분초",
+      "source": "MDR 용어표준 NO 2447 · 26-1차",
+      "definition": "등록한 일시에 대한 일시분초",
+      "parent": "datetime",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "작전코드일련번호",
+      "source": "MDR 용어표준 NO 7515 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적군대분류코드",
+      "source": "MDR 용어표준 NO 10602 · 1차",
+      "definition": "표적을 기준에 따라 크게 분류한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "정보분석보고서ID",
+      "source": "MDR 용어표준 NO 8365 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "전장장비연동ID",
+      "source": "MDR 용어표준 NO 8191 · 1차",
+      "definition": "전장체계에서 장비를 구분하기 위해 KJCCS에서 관리하는 식별ID",
+      "parent": "identifier",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "기상지점코드",
+      "source": "MDR 용어표준 NO 1639 · 1차",
+      "definition": "비, 눈, 바람, 안개, 구름, 기온 등 대기 가운데서 일어나는 모든 물리적 현상을 관측하는 지점을 구분한 코드",
+      "parent": "spatial-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "표적성질코드",
+      "source": "MDR 용어표준 NO 10658 · 1차",
+      "definition": "표적에 대한 성질을 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "수신부대코드",
+      "source": "MDR 용어표준 NO 4978 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "수집자산ID",
+      "source": "MDR 용어표준 NO 5105 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "요청부대코드",
+      "source": "MDR 용어표준 NO 6178 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "유효시작일시",
+      "source": "MDR 용어표준 NO 6547 · 1차",
+      "definition": "법률적 행위가 당사자나 법률이 의도한 본래의 효과가 있는 최초의 날짜와 시각",
+      "parent": null,
+      "status": "needs_review",
+      "note": "원문 정의가 법률적 효력으로 한정되어 있다. KMTF에서 일반적인 유효기간을 뜻하는지 문맥 검토가 필요하다."
+    },
+    {
+      "term": "유효종료일시",
+      "source": "MDR 용어표준 NO 6551 · 1차",
+      "definition": "법률적 행위가 당사자나 법률이 의도한 본래의 효과가 있는 마지막 날짜와 시각",
+      "parent": null,
+      "status": "needs_review",
+      "note": "원문 정의가 법률적 효력으로 한정되어 있다. KMTF에서 일반적인 유효기간을 뜻하는지 문맥 검토가 필요하다."
+    },
+    {
+      "term": "표적군중분류코드",
+      "source": "MDR 용어표준 NO 10608 · 1차",
+      "definition": "표적군의 대분류를 좀 더 자세히 나눠 분류한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "피아식별코드",
+      "source": "MDR 용어표준 NO 10838 · 1차",
+      "definition": "군대부호에서 적과 아군 등의 식별 형태를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "북한인물ID",
+      "source": "MDR 용어표준 NO 3732 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적군소분류코드",
+      "source": "MDR 용어표준 NO 10606 · 1차",
+      "definition": "표적군의 중분류를 좀 더 자세히 나눠 분류한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "동일일련번호",
+      "source": "MDR 용어표준 NO 2412 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "보고서요약설명",
+      "source": "MDR 용어표준 NO 3368 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "비행대대부대코드",
+      "source": "MDR 용어표준 NO 4010 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "수집망구분문자",
+      "source": "MDR 용어표준 NO 5090 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "수집부대코드",
+      "source": "MDR 용어표준 NO 5095 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "전투력지수",
+      "source": "MDR 용어표준 NO 8224 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "최종갱신자군번",
+      "source": "MDR 용어표준 NO 9665 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "타격일련번호",
+      "source": "MDR 용어표준 NO 10016 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "대화력표적규모코드",
+      "source": "MDR 용어표준 NO 2224 · 1차",
+      "definition": "대화력전에서 사용하는 표적규모를 구분한 코드\r\n* KMTF 2.0 기준설계서 적용 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "동원단계코드",
+      "source": "MDR 용어표준 NO 2368 · 1차",
+      "definition": "동원단계(1~12단계)를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "공격일시",
+      "source": "MDR 용어표준 NO 711 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "물리적첨부파일경로",
+      "source": "MDR 용어표준 NO 2757 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "적부대ID",
+      "source": "MDR 용어표준 NO 7871 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적접미번호",
+      "source": "MDR 용어표준 NO 10691 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "항공기대수",
+      "source": "MDR 용어표준 NO 11096 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "비행운영번호",
+      "source": "MDR 용어표준 NO 4032 · 1차",
+      "definition": "일자별, 대대별 비행순번",
+      "parent": "number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "사격명령번호",
+      "source": "MDR 용어표준 NO 4080 · 1차",
+      "definition": "사격명령을 구분하는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "시설종류부호코드",
+      "source": "MDR 용어표준 NO 5273 · 1차",
+      "definition": "표적의 기능별로 고유하게 지정된 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "결심지점일련번호",
+      "source": "MDR 용어표준 NO 424 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "복구예정일시",
+      "source": "MDR 용어표준 NO 3520 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사격부대코드",
+      "source": "MDR 용어표준 NO 4088 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "주공격점ID",
+      "source": "MDR 용어표준 NO 8723 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "구름량기상코드",
+      "source": "MDR 용어표준 NO 1099 · 1차",
+      "definition": "화생방보고시 구름량에 따른 날씨를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "기후현상코드",
+      "source": "MDR 용어표준 NO 1766 · 1차",
+      "definition": "화생방보고시 기후현상을 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "대기안정도분류코드",
+      "source": "MDR 용어표준 NO 2073 · 1차",
+      "definition": "화생방보고시 대기의 안정도를 분류한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "비행일자",
+      "source": "MDR 용어표준 NO 4037 · 1차",
+      "definition": "공중으로 날아가거나 날아다닌 날",
+      "parent": "date",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "수집감지기종류코드",
+      "source": "MDR 용어표준 NO 5082 · 1차",
+      "definition": "수집을 감지하는 기기를 관리하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "쏘티구간번호",
+      "source": "MDR 용어표준 NO 5580 · 1차",
+      "definition": "편조내 항공기들의 번호 각각에 호출부호로 사용하는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "작용제종류코드",
+      "source": "MDR 용어표준 NO 7471 · 1차",
+      "definition": "작용제 종류를 분류한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "작용제지속성코드",
+      "source": "MDR 용어표준 NO 7472 · 1차",
+      "definition": "작용제 지속성을 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "적장비코드",
+      "source": "MDR 용어표준 NO 7945 · 1차",
+      "definition": "MIMS에서 부여한 장비 식별을 위한 기준코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "화생방탐지방법코드",
+      "source": "MDR 용어표준 NO 11577 · 1차",
+      "definition": "화생방 탐지 방법을 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "갱신자군번",
+      "source": "MDR 용어표준 NO 262 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "비행대대명",
+      "source": "MDR 용어표준 NO 4008 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "이륙일시",
+      "source": "MDR 용어표준 NO 6717 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "작전식별번호",
+      "source": "MDR 용어표준 NO 7498 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "첨부파일문서ID",
+      "source": "MDR 용어표준 NO 9451 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적고도",
+      "source": "MDR 용어표준 NO 10598 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적정보지일련번호",
+      "source": "MDR 용어표준 NO 10696 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "공역형태코드",
+      "source": "MDR 용어표준 NO 855 · 1차",
+      "definition": "공역을 표시하는 9가지 형태의 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "기능발휘상태코드",
+      "source": "MDR 용어표준 NO 1544 · 1차",
+      "definition": "기능 발휘 상태를 구분한 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "습도코드",
+      "source": "MDR 용어표준 NO 5170 · 1차",
+      "definition": "화생방보고시 습도를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "우선순위코드",
+      "source": "MDR 용어표준 NO 6233 · 1차",
+      "definition": "임무지시, 긴급/수신 상황보고, 정보 등의 우선순위를 분류한다.",
+      "parent": null,
+      "status": "needs_review",
+      "note": "원문은 우선순위를 분류하는 행위를 설명한다. 코드값의 의미와 정의 보완이 필요하다."
+    },
+    {
+      "term": "유효풍속",
+      "source": "MDR 용어표준 NO 6552 · 1차",
+      "definition": "원자운 속의 낙진입자가 아랫바람 쪽으로 전파되는 속도. 단위는 ㎞/HR로 표시하며, 낙진예측시에 사용됨.",
+      "parent": "speed",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "장애물번호",
+      "source": "MDR 용어표준 NO 7660 · 1차",
+      "definition": "장애물을 구분하는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "축척코드",
+      "source": "MDR 용어표준 NO 9798 · 1차",
+      "definition": "지도 축척을 구분하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "통합임무명령서번호",
+      "source": "MDR 용어표준 NO 10214 · 1차",
+      "definition": "통합임무명령서를 식별하는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "화생방살포고도코드",
+      "source": "MDR 용어표준 NO 11565 · 1차",
+      "definition": "화생방 살포 고도를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "데이터ID",
+      "source": "MDR 용어표준 NO 2232 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "세부항공기종명",
+      "source": "MDR 용어표준 NO 4652 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "이륙예정일시",
+      "source": "MDR 용어표준 NO 6715 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "적정보신뢰성등급코드",
+      "source": "MDR 용어표준 NO 7966 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "제작기관명",
+      "source": "MDR 용어표준 NO 8547 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "제작부서명",
+      "source": "MDR 용어표준 NO 8549 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "제작일시",
+      "source": "MDR 용어표준 NO 8552 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "파일유형명",
+      "source": "MDR 용어표준 NO 10337 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "평가요소일련번호",
+      "source": "MDR 용어표준 NO 10494 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적일련번호",
+      "source": "MDR 용어표준 NO 10681 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적정보지등록부대코드",
+      "source": "MDR 용어표준 NO 10695 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "피해일시",
+      "source": "MDR 용어표준 NO 10874 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "관측일시",
+      "source": "MDR 용어표준 NO 1019 · 1차",
+      "definition": "직접 보거나 기계로 천체나 기상의 상태 추이, 변화 등을 관찰하여 측정하는 일을 시행한 날짜와 시각",
+      "parent": "datetime",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "비행운영구분코드",
+      "source": "MDR 용어표준 NO 4031 · 1차",
+      "definition": "비행계획 작성시, 비행운영현황을 구분하는 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "영상수집감지기종류코드",
+      "source": "MDR 용어표준 NO 5885 · 1차",
+      "definition": "영상을 수집하는 감지기의 종류를 구분하기 위한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "영상식별번호",
+      "source": "MDR 용어표준 NO 5890 · 1차",
+      "definition": "영상의 수집수단별, 일자별로 순차적으로 관리되는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "영상종류코드",
+      "source": "MDR 용어표준 NO 5919 · 1차",
+      "definition": "레이더 합성사진, 적외선 장비 및 사진촬영 등 영상자료의 종류를 나타내는 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "요망효과코드",
+      "source": "MDR 용어표준 NO 6166 · 1차",
+      "definition": "군사적/비군사적 조치에 의한 결과로써 요망한 물리적 상태를 구분한 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "인간정보출처코드",
+      "source": "MDR 용어표준 NO 6917 · 1차",
+      "definition": "인간정보의 출처를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "작용제적용분류코드",
+      "source": "MDR 용어표준 NO 7469 · 1차",
+      "definition": "작용제가 적용되는 요소를 분류한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "정보관계구분코드",
+      "source": "MDR 용어표준 NO 8358 · 1차",
+      "definition": "정보와 정보간의 관계를 구분하기 위한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "주공격점번호",
+      "source": "MDR 용어표준 NO 8725 · 1차",
+      "definition": "주공격점의 일련번호 정보",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "공격종료일시",
+      "source": "MDR 용어표준 NO 717 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "관계대상연합식별자",
+      "source": "MDR 용어표준 NO 946 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "관계대상ID",
+      "source": "MDR 용어표준 NO 945 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "작전단계일련번호",
+      "source": "MDR 용어표준 NO 7480 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "장비ID",
+      "source": "MDR 용어표준 NO 7563 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "항공작전지침ID",
+      "source": "MDR 용어표준 NO 11146 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "군국가구분코드",
+      "source": "MDR 용어표준 NO 1227 · 1차",
+      "definition": "국가에 따른 군을 분류하여 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "우선순위번호",
+      "source": "MDR 용어표준 NO 6231 · 1차",
+      "definition": "어떤 것을 먼저 차지하거나 사용할 수 있는 차례나 위치 등을 구분하기 위한 번호",
+      "parent": "number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "유효풍향",
+      "source": "MDR 용어표준 NO 6553 · 1차",
+      "definition": "작은 입자(11,000M 고도에서 지상에 떨어지는데 3시간 소요되는 크기의 입자)가 바람을 통하여 떨어지는 동안의 이동거리와 방향을 나타낼 것이다. 지상원점에서 운고도 점까지의 선과 2/3축 고도 점까지 선이 이루는 각을 이등분하는 선을 긋고 이등분선의 도북 방위각을 도로써 측정한 각임.",
+      "parent": "angle",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "임무할당코드",
+      "source": "MDR 용어표준 NO 7232 · 1차",
+      "definition": "임무수행을 지시하기 위한 목적으로 하나 또는 다수의 제대에 임무을 부여하기 위한 코드\r\n [ C4I 체계에서 다수의 무기체계와 연동시 연동을 통제하는 접점에서 다수의 무기체계에 전체 또는 특정 체계로 전문 송신시 사용.]",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "적설량",
+      "source": "MDR 용어표준 NO 7908 · 1차",
+      "definition": "쌓여 있는 눈의 분량",
+      "parent": "quantity",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "적화생방투발수단코드",
+      "source": "MDR 용어표준 NO 7981 · 1차",
+      "definition": "적 화생방 투발 수단을 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "첩보요청대상대분류코드",
+      "source": "MDR 용어표준 NO 9467 · 1차",
+      "definition": "첩보요청대상을 구분하기 위한 대분류 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "표적획득출처코드",
+      "source": "MDR 용어표준 NO 10741 · 1차",
+      "definition": "표적을 획득한 출처를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "피해시설유형코드",
+      "source": "MDR 용어표준 NO 10860 · 1차",
+      "definition": "피해 시설을 유형별로 구분한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "화생방공격구분코드",
+      "source": "MDR 용어표준 NO 11555 · 1차",
+      "definition": "화생방공격을 생물, 화학, 핵 등으로 구분하여 관리하는 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "계획년도",
+      "source": "MDR 용어표준 NO 597 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "공역통제ID",
+      "source": "MDR 용어표준 NO 839 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "군사좌표참조체계좌표",
+      "source": "MDR 용어표준 NO 1250 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기상발표일시분초",
+      "source": "MDR 용어표준 NO 1613 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "대정보업무보고서제목",
+      "source": "MDR 용어표준 NO 2163 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "문서식별자",
+      "source": "MDR 용어표준 NO 2724 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "보고서식별자",
+      "source": "MDR 용어표준 NO 3366 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "복구완료일시",
+      "source": "MDR 용어표준 NO 3522 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사격일시",
+      "source": "MDR 용어표준 NO 4092 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "우선정보요구ID",
+      "source": "MDR 용어표준 NO 6238 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "징후세부항목ID",
+      "source": "MDR 용어표준 NO 9253 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "징후항목ID",
+      "source": "MDR 용어표준 NO 9272 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "대대번호",
+      "source": "MDR 용어표준 NO 2080 · 1차",
+      "definition": "소속 대대를 구분하는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "동원형태코드",
+      "source": "MDR 용어표준 NO 2408 · 1차",
+      "definition": "동원의 형태(정상동원, 긴급동원)를 구분한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "선굵기코드",
+      "source": "MDR 용어표준 NO 4508 · 1차",
+      "definition": "아군통제수단 선굵기 정도를 나타낸 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "설치일시",
+      "source": "MDR 용어표준 NO 4590 · 1차",
+      "definition": "어떤 일을 하는 데 필요한 기관이나 설비 등을 베풀어 둔 날짜와 시각",
+      "parent": "datetime",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "시간단위코드",
+      "source": "MDR 용어표준 NO 5217 · 1차",
+      "definition": "통합결심지원과 위기조치예규의 평가 기준을 시간과 일로 구분하기 위한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "첩보분류코드",
+      "source": "MDR 용어표준 NO 9460 · 1차",
+      "definition": "첩보의 종류를 구분한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "합동화력자산코드",
+      "source": "MDR 용어표준 NO 11072 · 1차",
+      "definition": "합동화력운용과 관련된 통합 자산 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "합동화력탄종코드",
+      "source": "MDR 용어표준 NO 11073 · 1차",
+      "definition": "합동화력운용과 관련된 통합 탄종코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "과거평가시간",
+      "source": "MDR 용어표준 NO 911 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기록변경순번",
+      "source": "MDR 용어표준 NO 1571 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기록변경일련번호",
+      "source": "MDR 용어표준 NO 1572 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "무장무기명",
+      "source": "MDR 용어표준 NO 2703 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "물리적영상파일경로",
+      "source": "MDR 용어표준 NO 2754 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "비행과목명",
+      "source": "MDR 용어표준 NO 3996 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사건시분",
+      "source": "MDR 용어표준 NO 4069 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사건일자",
+      "source": "MDR 용어표준 NO 4073 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사격요망일시",
+      "source": "MDR 용어표준 NO 4090 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사고종료일시",
+      "source": "MDR 용어표준 NO 4125 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "상황도도시여부",
+      "source": "MDR 용어표준 NO 4434 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "수집일시분초",
+      "source": "MDR 용어표준 NO 5103 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "시정거리",
+      "source": "MDR 용어표준 NO 5305 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "이륙기지번호",
+      "source": "MDR 용어표준 NO 6708 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "장차평가시간",
+      "source": "MDR 용어표준 NO 7706 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "적시설ID",
+      "source": "MDR 용어표준 NO 7912 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "전투피해평가등록일시",
+      "source": "MDR 용어표준 NO 8247 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "중심좌표",
+      "source": "MDR 용어표준 NO 8893 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "착륙예정일시",
+      "source": "MDR 용어표준 NO 9331 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "착륙일시",
+      "source": "MDR 용어표준 NO 9333 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "촬영일시",
+      "source": "MDR 용어표준 NO 9620 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "판독영상일련번호",
+      "source": "MDR 용어표준 NO 10366 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "편조호출부호",
+      "source": "MDR 용어표준 NO 10465 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적명칭",
+      "source": "MDR 용어표준 NO 10631 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "피해위치좌표",
+      "source": "MDR 용어표준 NO 10870 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "강설량",
+      "source": "MDR 용어표준 NO 195 · 1차",
+      "definition": "일정한 기간 동안 일정한 곳에 내린 눈의 양",
+      "parent": "quantity",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "강수량",
+      "source": "MDR 용어표준 NO 198 · 1차",
+      "definition": "비, 눈, 우박, 안개 따위로 일정 기간 동안 일정한 곳에 내린 물의 총량",
+      "parent": "quantity",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "기능적상태구분코드",
+      "source": "MDR 용어표준 NO 1548 · 1차",
+      "definition": "적 기지의 기능상태를 구분한 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "복구상태코드",
+      "source": "MDR 용어표준 NO 3516 · 1차",
+      "definition": "피해시설의 복구상태를 구분하는 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "비행단번호",
+      "source": "MDR 용어표준 NO 4005 · 1차",
+      "definition": "군사조직 편제에서 부대 단위 중 비행단에 부여된 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "상급부대코드",
+      "source": "MDR 용어표준 NO 4285 · 1차",
+      "definition": "지휘계통의 명령 라인상에 위치하며 명령을 내리고 지시할 수 있는 부대를 구분하는 10자리 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "선구역통제수단구분코드",
+      "source": "MDR 용어표준 NO 4505 · 1차",
+      "definition": "선구역 통제 수단을 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "지원편성구분코드",
+      "source": "MDR 용어표준 NO 9058 · 1차",
+      "definition": "지원부대와 편성부대를 구분하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "지형정보코드",
+      "source": "MDR 용어표준 NO 9092 · 1차",
+      "definition": "화생방 피격상황 지형정보를 구분하기 위한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "첨부파일종류명",
+      "source": "MDR 용어표준 NO 9456 · 1차",
+      "definition": "전자 우편이나 문서 따위에 덧붙이는 파일을 부문별로 나누는 갈래의 이름",
+      "parent": "name",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "타격수단코드",
+      "source": "MDR 용어표준 NO 10012 · 1차",
+      "definition": "타격하기 위한 방법 또는 도구를 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "풍향코드",
+      "source": "MDR 용어표준 NO 10807 · 1차",
+      "definition": "바람의 방향을 구분하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "한글명",
+      "source": "MDR 용어표준 NO 11000 · 1차",
+      "definition": "한글로 된 이름",
+      "parent": "name",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "해역코드",
+      "source": "MDR 용어표준 NO 11306 · 1차",
+      "definition": "바다 위의 일정한 구역을 구분한 코드",
+      "parent": "spatial-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "화생방누출상태코드",
+      "source": "MDR 용어표준 NO 11562 · 1차",
+      "definition": "화생방 누출 상태를 구분한 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "화생방누출유형코드",
+      "source": "MDR 용어표준 NO 11563 · 1차",
+      "definition": "화생방 누출 유형을 구분한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "화생방폭발형태코드",
+      "source": "MDR 용어표준 NO 11579 · 1차",
+      "definition": "화생방 폭발 형태를 구분한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "D일코드",
+      "source": "MDR 용어표준 NO 22 · 1차",
+      "definition": "공격개시일을 기준으로 몇 일째인지 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "공역통제명",
+      "source": "MDR 용어표준 NO 844 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "관리기능실ID",
+      "source": "MDR 용어표준 NO 968 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "관측여부",
+      "source": "MDR 용어표준 NO 1018 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "금일보충량",
+      "source": "MDR 용어표준 NO 1410 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기능적표적피해평가구분코드",
+      "source": "MDR 용어표준 NO 1551 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기상개황내용",
+      "source": "MDR 용어표준 NO 1608 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기종명",
+      "source": "MDR 용어표준 NO 1692 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기준일시분",
+      "source": "MDR 용어표준 NO 1707 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "끝방위각",
+      "source": "MDR 용어표준 NO 1778 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "내반경",
+      "source": "MDR 용어표준 NO 1855 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "모의일시분",
+      "source": "MDR 용어표준 NO 2640 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "물리적표적피해평가구분코드",
+      "source": "MDR 용어표준 NO 2758 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "보유발수",
+      "source": "MDR 용어표준 NO 3445 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "복구일련번호",
+      "source": "MDR 용어표준 NO 3523 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사건ID",
+      "source": "MDR 용어표준 NO 4065 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "사격명령하달일시",
+      "source": "MDR 용어표준 NO 4083 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "삭제상태여부",
+      "source": "MDR 용어표준 NO 4247 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "소모손실량",
+      "source": "MDR 용어표준 NO 4695 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "시설명칭",
+      "source": "MDR 용어표준 NO 5253 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "시설좌표",
+      "source": "MDR 용어표준 NO 5274 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "시작방위각",
+      "source": "MDR 용어표준 NO 5292 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "약식호출부호",
+      "source": "MDR 용어표준 NO 5659 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "연방ID",
+      "source": "MDR 용어표준 NO 5793 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "영상파일명",
+      "source": "MDR 용어표준 NO 5934 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "영상판독보고서순번",
+      "source": "MDR 용어표준 NO 5939 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "오른쪽한계방위각",
+      "source": "MDR 용어표준 NO 6079 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "왼쪽한계방위각",
+      "source": "MDR 용어표준 NO 6139 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "우선정보요구상세일련번호",
+      "source": "MDR 용어표준 NO 6243 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "위치좌표",
+      "source": "MDR 용어표준 NO 6485 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "임무종료일시",
+      "source": "MDR 용어표준 NO 7214 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "작전식별ID",
+      "source": "MDR 용어표준 NO 7497 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "작전지역명",
+      "source": "MDR 용어표준 NO 7508 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "적용예상일시",
+      "source": "MDR 용어표준 NO 7930 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "적장비ID",
+      "source": "MDR 용어표준 NO 7940 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "제한전파그룹번호",
+      "source": "MDR 용어표준 NO 8591 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "징후핵심여부",
+      "source": "MDR 용어표준 NO 9281 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "착륙기지번호",
+      "source": "MDR 용어표준 NO 9324 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "최대고도",
+      "source": "MDR 용어표준 NO 9636 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "최소고도",
+      "source": "MDR 용어표준 NO 9653 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "탐지일시",
+      "source": "MDR 용어표준 NO 10070 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "탐지ID",
+      "source": "MDR 용어표준 NO 10055 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "통제수단ID",
+      "source": "MDR 용어표준 NO 10182 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "통합임무명령서버전",
+      "source": "MDR 용어표준 NO 10213 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적길이",
+      "source": "MDR 용어표준 NO 10616 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적도착시각",
+      "source": "MDR 용어표준 NO 10625 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적통합자료ID",
+      "source": "MDR 용어표준 NO 10722 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "표적폭",
+      "source": "MDR 용어표준 NO 10725 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "항공탄명",
+      "source": "MDR 용어표준 NO 11163 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "현황비고",
+      "source": "MDR 용어표준 NO 11465 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "화생피격발수",
+      "source": "MDR 용어표준 NO 11582 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "고가치표적범주코드",
+      "source": "MDR 용어표준 NO 634 · 1차",
+      "definition": "고가치 표적 범주를 구분하는 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "관리일자",
+      "source": "MDR 용어표준 NO 974 · 1차",
+      "definition": "어떤 일의 사무를 맡아 처리하거나 시설이나 물건의 유지, 개량 등의 일을 맡아 수행한 날짜",
+      "parent": "date",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "관심타격지역번호",
+      "source": "MDR 용어표준 NO 1002 · 1차",
+      "definition": "관심타격지역(TAI) 를 구분하기 위한 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "구역구분코드",
+      "source": "MDR 용어표준 NO 1130 · 1차",
+      "definition": "장애물설치지대의 구역의 종류를 구분하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "군민간구분코드",
+      "source": "MDR 용어표준 NO 1241 · 1차",
+      "definition": "인사 군 민간 구분 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "기본정보분류코드",
+      "source": "MDR 용어표준 NO 1597 · 1차",
+      "definition": "기본정보를 분류하기 위한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "기상코드",
+      "source": "MDR 용어표준 NO 1647 · 1차",
+      "definition": "기상관측보고에 쓰이는 일기상태를 분류한 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "내외장부호",
+      "source": "MDR 용어표준 NO 1862 · 1차",
+      "definition": "항공기에 장착하는 내/외장 무기를 표현하는 부호",
+      "parent": "symbol",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "배포여부",
+      "source": "MDR 용어표준 NO 3200 · 1차",
+      "definition": "신문이나 책자 등을 널리 나누었는지 여부",
+      "parent": "boolean",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "부대임무수행상태코드",
+      "source": "MDR 용어표준 NO 3662 · 1차",
+      "definition": "부대 임무를 수행한 상태를 나타낸 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "북한인물활동분류코드",
+      "source": "MDR 용어표준 NO 3795 · 1차",
+      "definition": "북한인물의 활동을 분류하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "북한주소지역코드",
+      "source": "MDR 용어표준 NO 3801 · 1차",
+      "definition": "북한 주소의 지역을 구분하기 위한 코드",
+      "parent": "spatial-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "북한지역행정구역관리번호",
+      "source": "MDR 용어표준 NO 3802 · 1차",
+      "definition": "민사작전을 위해 북한지역행정구역 별로 부여한 구별 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "비행취소사유코드",
+      "source": "MDR 용어표준 NO 4053 · 1차",
+      "definition": "비행이 취소된 사유를 구분하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "소요량",
+      "source": "MDR 용어표준 NO 4733 · 1차",
+      "definition": "1. 필요로 하거나 요구되는 분량\r\n\r\n2. 광의의 의미로 사업계획 또는 목표를 성취하기 위하여 필요한 장비, 물자, 용역 때로는 자금 등의 필요량을 말하며, 협의로는 원가회계상의 소비량의 개념으로서, 예를 들면 재료의 소요량은 일정제품의 단위당 제조에 소요되는 소비량을 의미한다.",
+      "parent": "quantity",
+      "status": "sense_split",
+      "note": "원문의 광의·협의 구분에 따른 두 작업 의미. KMTF 필드가 어느 의미인지 확정하지 않았으며 원본 사용 횟수를 복제하지 않음."
+    },
+    {
+      "term": "수목밀집정도코드",
+      "source": "MDR 용어표준 NO 4907 · 1차",
+      "definition": "화생방 피격상황 수목정도를 구분하기 위한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "수집일자",
+      "source": "MDR 용어표준 NO 5104 · 1차",
+      "definition": "취미나 연구를 위하여 물건, 재료, 정보 등을 찾아 모은 날짜",
+      "parent": "date",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "시인상태코드",
+      "source": "MDR 용어표준 NO 5286 · 1차",
+      "definition": "적정보에 대한 시인 상태를 구분하기 위한 코드",
+      "parent": "state-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "영상수집자산종류코드",
+      "source": "MDR 용어표준 NO 5888 · 1차",
+      "definition": "영상을 수집하는 자산의 종류를 구분하기 위한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "위치구분코드",
+      "source": "MDR 용어표준 NO 6475 · 1차",
+      "definition": "위치를 구분한 코드",
+      "parent": "spatial-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "이메일발송여부",
+      "source": "MDR 용어표준 NO 6725 · 1차",
+      "definition": "컴퓨터의 단말기 이용자끼리 통신 회선을 이용하여 주고받는 글을 내보냈는지 여부",
+      "parent": "boolean",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "인간정보보고서분류코드",
+      "source": "MDR 용어표준 NO 6912 · 1차",
+      "definition": "인간정보보고서를 기준에 따라 분류한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "장애물종류코드",
+      "source": "MDR 용어표준 NO 7679 · 1차",
+      "definition": "장애물설치지대의 구역에 설치되는 장애물의 종류를 식별하기 위한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "전시개편유형코드",
+      "source": "MDR 용어표준 NO 8095 · 1차",
+      "definition": "전시에 부대의 개편 유형을 구분한 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "징후상태변경구분코드",
+      "source": "MDR 용어표준 NO 9246 · 1차",
+      "definition": "징후상태의 변경을 구분하기 위한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "상태 자체가 아니라 상태의 변경을 구분한다. 상태 분류 코드라는 기존 상위 관계는 철회하고, 세부 의미 확인 전 코드까지만 분류한다. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "첩보수집부대구분코드",
+      "source": "MDR 용어표준 NO 9463 · 1차",
+      "definition": "첩보를 수집하는 부대를 관리하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "첩보요청번호",
+      "source": "MDR 용어표준 NO 9470 · 1차",
+      "definition": "첩보요청을 구분하는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "최저고도",
+      "source": "MDR 용어표준 NO 9659 · 1차",
+      "definition": "높이가 가장 낮은 고도",
+      "parent": "altitude",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "표적범주코드",
+      "source": "MDR 용어표준 NO 10642 · 1차",
+      "definition": "목표가 되는 표적이 되는 목록을 구분하는 코드",
+      "parent": "kind-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "표적이동방향코드",
+      "source": "MDR 용어표준 NO 10678 · 1차",
+      "definition": "표적이동방향을 구분한 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "피해보고식별번호",
+      "source": "MDR 용어표준 NO 10854 · 1차",
+      "definition": "피해보고를 식별하는 번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "항공임무명령서번호",
+      "source": "MDR 용어표준 NO 11140 · 1차",
+      "definition": "공군구성군사령관이 발간하는 작전명령번호",
+      "parent": "id-number",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "항공작전지침기준구분코드",
+      "source": "MDR 용어표준 NO 11148 · 1차",
+      "definition": "항공작전수행 지침의 기준을 구분하는 코드",
+      "parent": "code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "항적부호",
+      "source": "MDR 용어표준 NO 11184 · 1차",
+      "definition": "방공포병작전 수행에 필요한 항적을 구분하기 위하여 부여된 식별자",
+      "parent": "identifier",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "해군구역코드",
+      "source": "MDR 용어표준 NO 11190 · 1차",
+      "definition": "해군이 관리하는 구역을 구분한 코드",
+      "parent": "spatial-code",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "term": "가중치값",
+      "source": "MDR 용어표준 NO 136 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "공격위치실제여부",
+      "source": "MDR 용어표준 NO 707 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "공격자산명",
+      "source": "MDR 용어표준 NO 712 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "관심타격지역좌표",
+      "source": "MDR 용어표준 NO 1003 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "관측방위각",
+      "source": "MDR 용어표준 NO 1015 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "근접항공지원임무요청일련번호",
+      "source": "MDR 용어표준 NO 1374 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기본정보테이블ID",
+      "source": "MDR 용어표준 NO 1598 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기본DECKID",
+      "source": "MDR 용어표준 NO 1583 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "기상지점명",
+      "source": "MDR 용어표준 NO 1638 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "레이더명",
+      "source": "MDR 용어표준 NO 2478 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "명령요청구분문자",
+      "source": "MDR 용어표준 NO 2586 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "명령요청일련번호",
+      "source": "MDR 용어표준 NO 2587 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    },
+    {
+      "term": "보유년도",
+      "source": "MDR 용어표준 NO 3443 · 1차",
+      "definition": "",
+      "parent": null,
+      "status": "needs_review",
+      "note": "MDR 원문 정의 없음. 필드명만으로 상·하위나 동의어 관계를 추가하지 않음."
+    }
+  ],
+  "relations": [
+    {
+      "source": "synset:curated:identifier",
+      "target": "synset:curated:symbol",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "편집 개념의 정의에 명시한 상위 개념.",
+      "evidenceRef": "synset:curated:identifier",
+      "weight": 1000,
+      "id": "synset:curated:identifier\u0001synset:curated:symbol\u0001hypernym"
+    },
+    {
+      "source": "synset:curated:number",
+      "target": "synset:curated:symbol",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "편집 개념의 정의에 명시한 상위 개념.",
+      "evidenceRef": "synset:curated:number",
+      "weight": 1000,
+      "id": "synset:curated:number\u0001synset:curated:symbol\u0001hypernym"
+    },
+    {
+      "source": "synset:curated:id-number",
+      "target": "synset:curated:number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "편집 개념의 정의에 명시한 상위 개념.",
+      "evidenceRef": "synset:curated:id-number",
+      "weight": 1000,
+      "id": "synset:curated:id-number\u0001synset:curated:number\u0001hypernym"
+    },
+    {
+      "source": "synset:curated:code",
+      "target": "synset:curated:symbol",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "편집 개념의 정의에 명시한 상위 개념.",
+      "evidenceRef": "synset:curated:code",
+      "weight": 1000,
+      "id": "synset:curated:code\u0001synset:curated:symbol\u0001hypernym"
+    },
+    {
+      "source": "synset:curated:state-code",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "편집 개념의 정의에 명시한 상위 개념.",
+      "evidenceRef": "synset:curated:state-code",
+      "weight": 1000,
+      "id": "synset:curated:state-code\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:curated:kind-code",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "편집 개념의 정의에 명시한 상위 개념.",
+      "evidenceRef": "synset:curated:kind-code",
+      "weight": 1000,
+      "id": "synset:curated:kind-code\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:curated:spatial-code",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "편집 개념의 정의에 명시한 상위 개념.",
+      "evidenceRef": "synset:curated:spatial-code",
+      "weight": 1000,
+      "id": "synset:curated:spatial-code\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:curated:id-number",
+      "target": "synset:curated:identifier",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "식별번호는 대상을 구별하기 위해 부여한 식별자이기도 하다.",
+      "evidenceRef": "synset:curated:id-number",
+      "weight": 1000,
+      "id": "synset:curated:id-number\u0001synset:curated:identifier\u0001hypernym"
+    },
+    {
+      "source": "synset:3380|보고일시|RPT_DTTM|일시_DT",
+      "target": "synset:curated:datetime",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 날짜와 시각 또는 일시분초를 명시한다.",
+      "evidenceRef": "synset:3380|보고일시|RPT_DTTM|일시_DT",
+      "weight": 1000,
+      "id": "synset:3380|보고일시|RPT_DTTM|일시_DT\u0001synset:curated:datetime\u0001hypernym"
+    },
+    {
+      "source": "synset:2447|등록일시분초|RGST_DHMS|일시분초_V14",
+      "target": "synset:curated:datetime",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 날짜와 시각 또는 일시분초를 명시한다.",
+      "evidenceRef": "synset:2447|등록일시분초|RGST_DHMS|일시분초_V14",
+      "weight": 1000,
+      "id": "synset:2447|등록일시분초|RGST_DHMS|일시분초_V14\u0001synset:curated:datetime\u0001hypernym"
+    },
+    {
+      "source": "synset:1019|관측일시|OBSVTN_DTTM|일시_DT",
+      "target": "synset:curated:datetime",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 날짜와 시각 또는 일시분초를 명시한다.",
+      "evidenceRef": "synset:1019|관측일시|OBSVTN_DTTM|일시_DT",
+      "weight": 1000,
+      "id": "synset:1019|관측일시|OBSVTN_DTTM|일시_DT\u0001synset:curated:datetime\u0001hypernym"
+    },
+    {
+      "source": "synset:4590|설치일시|INSTL_DTTM|일시_DT",
+      "target": "synset:curated:datetime",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 날짜와 시각 또는 일시분초를 명시한다.",
+      "evidenceRef": "synset:4590|설치일시|INSTL_DTTM|일시_DT",
+      "weight": 1000,
+      "id": "synset:4590|설치일시|INSTL_DTTM|일시_DT\u0001synset:curated:datetime\u0001hypernym"
+    },
+    {
+      "source": "synset:3382|보고일자|RPTDT|일자_V8",
+      "target": "synset:curated:date",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 행위가 이루어진 날이나 날짜를 명시한다.",
+      "evidenceRef": "synset:3382|보고일자|RPTDT|일자_V8",
+      "weight": 1000,
+      "id": "synset:3382|보고일자|RPTDT|일자_V8\u0001synset:curated:date\u0001hypernym"
+    },
+    {
+      "source": "synset:4037|비행일자|FLTDT|일자_V8",
+      "target": "synset:curated:date",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 행위가 이루어진 날이나 날짜를 명시한다.",
+      "evidenceRef": "synset:4037|비행일자|FLTDT|일자_V8",
+      "weight": 1000,
+      "id": "synset:4037|비행일자|FLTDT|일자_V8\u0001synset:curated:date\u0001hypernym"
+    },
+    {
+      "source": "synset:974|관리일자|MGT_DATE|일자_V8",
+      "target": "synset:curated:date",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 행위가 이루어진 날이나 날짜를 명시한다.",
+      "evidenceRef": "synset:974|관리일자|MGT_DATE|일자_V8",
+      "weight": 1000,
+      "id": "synset:974|관리일자|MGT_DATE|일자_V8\u0001synset:curated:date\u0001hypernym"
+    },
+    {
+      "source": "synset:5104|수집일자|CLTN_DATE|일자_V8",
+      "target": "synset:curated:date",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 행위가 이루어진 날이나 날짜를 명시한다.",
+      "evidenceRef": "synset:5104|수집일자|CLTN_DATE|일자_V8",
+      "weight": 1000,
+      "id": "synset:5104|수집일자|CLTN_DATE|일자_V8\u0001synset:curated:date\u0001hypernym"
+    },
+    {
+      "source": "synset:8191|전장장비연동ID|BTLEQITCNTID|전장장비연동ID_V10",
+      "target": "synset:curated:identifier",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상을 구별하기 위해 부여한 식별자를 명시한다.",
+      "evidenceRef": "synset:8191|전장장비연동ID|BTLEQITCNTID|전장장비연동ID_V10",
+      "weight": 1000,
+      "id": "synset:8191|전장장비연동ID|BTLEQITCNTID|전장장비연동ID_V10\u0001synset:curated:identifier\u0001hypernym"
+    },
+    {
+      "source": "synset:11184|항적부호|TRKSGN|항적부호_V5",
+      "target": "synset:curated:identifier",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상을 구별하기 위해 부여한 식별자를 명시한다.",
+      "evidenceRef": "synset:11184|항적부호|TRKSGN|항적부호_V5",
+      "weight": 1000,
+      "id": "synset:11184|항적부호|TRKSGN|항적부호_V5\u0001synset:curated:identifier\u0001hypernym"
+    },
+    {
+      "source": "synset:10641|표적번호|TGTNO|표적번호_V20",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:10641|표적번호|TGTNO|표적번호_V20",
+      "weight": 1000,
+      "id": "synset:10641|표적번호|TGTNO|표적번호_V20\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:3360|보고서번호|REPTNO|보고서번호_V20",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:3360|보고서번호|REPTNO|보고서번호_V20",
+      "weight": 1000,
+      "id": "synset:3360|보고서번호|REPTNO|보고서번호_V20\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:4080|사격명령번호|FRORDNO|사격명령번호_V29",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:4080|사격명령번호|FRORDNO|사격명령번호_V29",
+      "weight": 1000,
+      "id": "synset:4080|사격명령번호|FRORDNO|사격명령번호_V29\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:5580|쏘티구간번호|SRTISCTNO|쏘티구간번호_V2",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:5580|쏘티구간번호|SRTISCTNO|쏘티구간번호_V2",
+      "weight": 1000,
+      "id": "synset:5580|쏘티구간번호|SRTISCTNO|쏘티구간번호_V2\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:7660|장애물번호|OBSTNO|장애물번호_V20",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:7660|장애물번호|OBSTNO|장애물번호_V20",
+      "weight": 1000,
+      "id": "synset:7660|장애물번호|OBSTNO|장애물번호_V20\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:10214|통합임무명령서번호|ITONO|통합임무명령서번호_V10",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:10214|통합임무명령서번호|ITONO|통합임무명령서번호_V10",
+      "weight": 1000,
+      "id": "synset:10214|통합임무명령서번호|ITONO|통합임무명령서번호_V10\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:5890|영상식별번호|IMGIDNO|영상식별번호_V20",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:5890|영상식별번호|IMGIDNO|영상식별번호_V20",
+      "weight": 1000,
+      "id": "synset:5890|영상식별번호|IMGIDNO|영상식별번호_V20\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:8725|주공격점번호|DMPINO|주공격점번호_V4",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:8725|주공격점번호|DMPINO|주공격점번호_V4",
+      "weight": 1000,
+      "id": "synset:8725|주공격점번호|DMPINO|주공격점번호_V4\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:2080|대대번호|BNNO|대대번호_V3",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:2080|대대번호|BNNO|대대번호_V3",
+      "weight": 1000,
+      "id": "synset:2080|대대번호|BNNO|대대번호_V3\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:4005|비행단번호|WNGNO|비행단번호_V3",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:4005|비행단번호|WNGNO|비행단번호_V3",
+      "weight": 1000,
+      "id": "synset:4005|비행단번호|WNGNO|비행단번호_V3\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:1002|관심타격지역번호|TAINO|관심타격지역번호_V4",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:1002|관심타격지역번호|TAINO|관심타격지역번호_V4",
+      "weight": 1000,
+      "id": "synset:1002|관심타격지역번호|TAINO|관심타격지역번호_V4\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:3802|북한지역행정구역관리번호|NKRASMNO|북한지역행정구역관리번호_I22",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:3802|북한지역행정구역관리번호|NKRASMNO|북한지역행정구역관리번호_I22",
+      "weight": 1000,
+      "id": "synset:3802|북한지역행정구역관리번호|NKRASMNO|북한지역행정구역관리번호_I22\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:9470|첩보요청번호|INFRQNO|첩보요청번호_V20",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:9470|첩보요청번호|INFRQNO|첩보요청번호_V20",
+      "weight": 1000,
+      "id": "synset:9470|첩보요청번호|INFRQNO|첩보요청번호_V20\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:10854|피해보고식별번호|DRINO|피해보고식별번호_V50",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:10854|피해보고식별번호|DRINO|피해보고식별번호_V50",
+      "weight": 1000,
+      "id": "synset:10854|피해보고식별번호|DRINO|피해보고식별번호_V50\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:11140|항공임무명령서번호|ATONO|항공임무명령서번호_V10",
+      "target": "synset:curated:id-number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 특정 대상을 구별하거나 관리하기 위해 부여한 번호를 명시한다.",
+      "evidenceRef": "synset:11140|항공임무명령서번호|ATONO|항공임무명령서번호_V10",
+      "weight": 1000,
+      "id": "synset:11140|항공임무명령서번호|ATONO|항공임무명령서번호_V10\u0001synset:curated:id-number\u0001hypernym"
+    },
+    {
+      "source": "synset:4032|비행운영번호|FLTOPNO|비행운영번호_V9",
+      "target": "synset:curated:number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 순번 또는 순서를 구분하기 위한 번호를 명시한다. 식별번호로 단정하지 않는다.",
+      "evidenceRef": "synset:4032|비행운영번호|FLTOPNO|비행운영번호_V9",
+      "weight": 1000,
+      "id": "synset:4032|비행운영번호|FLTOPNO|비행운영번호_V9\u0001synset:curated:number\u0001hypernym"
+    },
+    {
+      "source": "synset:6231|우선순위번호|PONO|우선순위번호_I10",
+      "target": "synset:curated:number",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 순번 또는 순서를 구분하기 위한 번호를 명시한다. 식별번호로 단정하지 않는다.",
+      "evidenceRef": "synset:6231|우선순위번호|PONO|우선순위번호_I10",
+      "weight": 1000,
+      "id": "synset:6231|우선순위번호|PONO|우선순위번호_I10\u0001synset:curated:number\u0001hypernym"
+    },
+    {
+      "source": "synset:1862|내외장부호|WTHNEXTRSIGN|내외장부호_V30",
+      "target": "synset:curated:symbol",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 무기를 표현하는 부호임을 명시한다.",
+      "evidenceRef": "synset:1862|내외장부호|WTHNEXTRSIGN|내외장부호_V30",
+      "weight": 1000,
+      "id": "synset:1862|내외장부호|WTHNEXTRSIGN|내외장부호_V30\u0001synset:curated:symbol\u0001hypernym"
+    },
+    {
+      "source": "synset:10702|표적좌표|TGGRD|좌표_V15",
+      "target": "synset:curated:coordinate",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 공간 안의 점의 위치를 나타내는 수나 수의 짝을 명시한다.",
+      "evidenceRef": "synset:10702|표적좌표|TGGRD|좌표_V15",
+      "weight": 1000,
+      "id": "synset:10702|표적좌표|TGGRD|좌표_V15\u0001synset:curated:coordinate\u0001hypernym"
+    },
+    {
+      "source": "synset:9456|첨부파일종류명|ATCHFL_KND_NM|명_V50",
+      "target": "synset:curated:name",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 이름임을 명시한다.",
+      "evidenceRef": "synset:9456|첨부파일종류명|ATCHFL_KND_NM|명_V50",
+      "weight": 1000,
+      "id": "synset:9456|첨부파일종류명|ATCHFL_KND_NM|명_V50\u0001synset:curated:name\u0001hypernym"
+    },
+    {
+      "source": "synset:11000|한글명|HNGNM|명_V100",
+      "target": "synset:curated:name",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 이름임을 명시한다.",
+      "evidenceRef": "synset:11000|한글명|HNGNM|명_V100",
+      "weight": 1000,
+      "id": "synset:11000|한글명|HNGNM|명_V100\u0001synset:curated:name\u0001hypernym"
+    },
+    {
+      "source": "synset:7908|적설량|DSNWQNTY|적설량_F6,1",
+      "target": "synset:curated:quantity",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 양이나 분량을 명시한다. 단위 환산이나 부분·전체 관계를 주장하지 않는다.",
+      "evidenceRef": "synset:7908|적설량|DSNWQNTY|적설량_F6,1",
+      "weight": 1000,
+      "id": "synset:7908|적설량|DSNWQNTY|적설량_F6,1\u0001synset:curated:quantity\u0001hypernym"
+    },
+    {
+      "source": "synset:195|강설량|AMTSNW|강설량_F6,1",
+      "target": "synset:curated:quantity",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 양이나 분량을 명시한다. 단위 환산이나 부분·전체 관계를 주장하지 않는다.",
+      "evidenceRef": "synset:195|강설량|AMTSNW|강설량_F6,1",
+      "weight": 1000,
+      "id": "synset:195|강설량|AMTSNW|강설량_F6,1\u0001synset:curated:quantity\u0001hypernym"
+    },
+    {
+      "source": "synset:198|강수량|AMTPRCPT|강수량_F6,1",
+      "target": "synset:curated:quantity",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 양이나 분량을 명시한다. 단위 환산이나 부분·전체 관계를 주장하지 않는다.",
+      "evidenceRef": "synset:198|강수량|AMTPRCPT|강수량_F6,1",
+      "weight": 1000,
+      "id": "synset:198|강수량|AMTPRCPT|강수량_F6,1\u0001synset:curated:quantity\u0001hypernym"
+    },
+    {
+      "source": "synset:4733|소요량|RQMQTY|량_F10",
+      "target": "synset:curated:quantity",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 양이나 분량을 명시한다. 단위 환산이나 부분·전체 관계를 주장하지 않는다.",
+      "evidenceRef": "synset:4733|소요량|RQMQTY|량_F10",
+      "weight": 1000,
+      "id": "synset:4733|소요량|RQMQTY|량_F10\u0001synset:curated:quantity\u0001hypernym"
+    },
+    {
+      "source": "synset:6552|유효풍속|EWSPD|풍속_F6,2",
+      "target": "synset:curated:speed",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 낙진입자가 전파되는 속도임을 명시한다.",
+      "evidenceRef": "synset:6552|유효풍속|EWSPD|풍속_F6,2",
+      "weight": 1000,
+      "id": "synset:6552|유효풍속|EWSPD|풍속_F6,2\u0001synset:curated:speed\u0001hypernym"
+    },
+    {
+      "source": "synset:6553|유효풍향|EFDWD|풍향_V10",
+      "target": "synset:curated:angle",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 방위각을 도 단위로 측정한 각임을 명시한다.",
+      "evidenceRef": "synset:6553|유효풍향|EFDWD|풍향_V10",
+      "weight": 1000,
+      "id": "synset:6553|유효풍향|EFDWD|풍향_V10\u0001synset:curated:angle\u0001hypernym"
+    },
+    {
+      "source": "synset:9659|최저고도|TRVLV|고도_F8,2",
+      "target": "synset:curated:altitude",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 높이가 가장 낮은 고도임을 명시한다.",
+      "evidenceRef": "synset:9659|최저고도|TRVLV|고도_F8,2",
+      "weight": 1000,
+      "id": "synset:9659|최저고도|TRVLV|고도_F8,2\u0001synset:curated:altitude\u0001hypernym"
+    },
+    {
+      "source": "synset:3200|배포여부|DSTRBTN_YN|여부_C1",
+      "target": "synset:curated:boolean",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 행위가 이루어졌는지 여부를 명시한다.",
+      "evidenceRef": "synset:3200|배포여부|DSTRBTN_YN|여부_C1",
+      "weight": 1000,
+      "id": "synset:3200|배포여부|DSTRBTN_YN|여부_C1\u0001synset:curated:boolean\u0001hypernym"
+    },
+    {
+      "source": "synset:6725|이메일발송여부|EMAIL_SNDNG_YN|여부_C1",
+      "target": "synset:curated:boolean",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 행위가 이루어졌는지 여부를 명시한다.",
+      "evidenceRef": "synset:6725|이메일발송여부|EMAIL_SNDNG_YN|여부_C1",
+      "weight": 1000,
+      "id": "synset:6725|이메일발송여부|EMAIL_SNDNG_YN|여부_C1\u0001synset:curated:boolean\u0001hypernym"
+    },
+    {
+      "source": "synset:1544|기능발휘상태코드|FUNDISTATCD|기능발휘상태코드_C1",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:1544|기능발휘상태코드|FUNDISTATCD|기능발휘상태코드_C1",
+      "weight": 1000,
+      "id": "synset:1544|기능발휘상태코드|FUNDISTATCD|기능발휘상태코드_C1\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:1548|기능적상태구분코드|FNCTNLSTDVCD|기능적상태구분코드_C3",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:1548|기능적상태구분코드|FNCTNLSTDVCD|기능적상태구분코드_C3",
+      "weight": 1000,
+      "id": "synset:1548|기능적상태구분코드|FNCTNLSTDVCD|기능적상태구분코드_C3\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:3516|복구상태코드|RCVRYSCD|복구상태코드_C1",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:3516|복구상태코드|RCVRYSCD|복구상태코드_C1",
+      "weight": 1000,
+      "id": "synset:3516|복구상태코드|RCVRYSCD|복구상태코드_C1\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:11562|화생방누출상태코드|NBCLEASTATCD|화생방누출상태코드_C1",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:11562|화생방누출상태코드|NBCLEASTATCD|화생방누출상태코드_C1",
+      "weight": 1000,
+      "id": "synset:11562|화생방누출상태코드|NBCLEASTATCD|화생방누출상태코드_C1\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:3662|부대임무수행상태코드|TRMSTCD|부대임무수행상태코드_C1",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:3662|부대임무수행상태코드|TRMSTCD|부대임무수행상태코드_C1",
+      "weight": 1000,
+      "id": "synset:3662|부대임무수행상태코드|TRMSTCD|부대임무수행상태코드_C1\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:5286|시인상태코드|APRSACD|시인상태코드_C1",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:5286|시인상태코드|APRSACD|시인상태코드_C1",
+      "weight": 1000,
+      "id": "synset:5286|시인상태코드|APRSACD|시인상태코드_C1\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:4031|비행운영구분코드|FLYOPERDVSCD|비행운영구분코드_C2",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:4031|비행운영구분코드|FLYOPERDVSCD|비행운영구분코드_C2",
+      "weight": 1000,
+      "id": "synset:4031|비행운영구분코드|FLYOPERDVSCD|비행운영구분코드_C2\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:6166|요망효과코드|DSREFCTCD|요망효과코드_C1",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:6166|요망효과코드|DSREFCTCD|요망효과코드_C1",
+      "weight": 1000,
+      "id": "synset:6166|요망효과코드|DSREFCTCD|요망효과코드_C1\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:1647|기상코드|WTCD|기상코드_C2",
+      "target": "synset:curated:state-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 상태·현황을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:1647|기상코드|WTCD|기상코드_C2",
+      "weight": 1000,
+      "id": "synset:1647|기상코드|WTCD|기상코드_C2\u0001synset:curated:state-code\u0001hypernym"
+    },
+    {
+      "source": "synset:10602|표적군대분류코드|GOTLRCLSCD|표적군대분류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:10602|표적군대분류코드|GOTLRCLSCD|표적군대분류코드_C2",
+      "weight": 1000,
+      "id": "synset:10602|표적군대분류코드|GOTLRCLSCD|표적군대분류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:10608|표적군중분류코드|GOTGMDCLSCD|표적군중분류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:10608|표적군중분류코드|GOTGMDCLSCD|표적군중분류코드_C2",
+      "weight": 1000,
+      "id": "synset:10608|표적군중분류코드|GOTGMDCLSCD|표적군중분류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:10606|표적군소분류코드|GOTGSMCLSCD|표적군소분류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:10606|표적군소분류코드|GOTGSMCLSCD|표적군소분류코드_C2",
+      "weight": 1000,
+      "id": "synset:10606|표적군소분류코드|GOTGSMCLSCD|표적군소분류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:7471|작용제종류코드|AGNSTKNDCD|작용제종류코드_C4",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:7471|작용제종류코드|AGNSTKNDCD|작용제종류코드_C4",
+      "weight": 1000,
+      "id": "synset:7471|작용제종류코드|AGNSTKNDCD|작용제종류코드_C4\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:855|공역형태코드|ASFRMCD|공역형태코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:855|공역형태코드|ASFRMCD|공역형태코드_C2",
+      "weight": 1000,
+      "id": "synset:855|공역형태코드|ASFRMCD|공역형태코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:5885|영상수집감지기종류코드|IMGCLTSNKNCD|영상수집감지기종류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:5885|영상수집감지기종류코드|IMGCLTSNKNCD|영상수집감지기종류코드_C2",
+      "weight": 1000,
+      "id": "synset:5885|영상수집감지기종류코드|IMGCLTSNKNCD|영상수집감지기종류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:5919|영상종류코드|IMGTYCD|영상종류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:5919|영상종류코드|IMGTYCD|영상종류코드_C2",
+      "weight": 1000,
+      "id": "synset:5919|영상종류코드|IMGTYCD|영상종류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:9467|첩보요청대상대분류코드|IFREQOLGCLCD|첩보요청대상대분류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:9467|첩보요청대상대분류코드|IFREQOLGCLCD|첩보요청대상대분류코드_C2",
+      "weight": 1000,
+      "id": "synset:9467|첩보요청대상대분류코드|IFREQOLGCLCD|첩보요청대상대분류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:10860|피해시설유형코드|DINSTLYCD|피해시설유형코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:10860|피해시설유형코드|DINSTLYCD|피해시설유형코드_C2",
+      "weight": 1000,
+      "id": "synset:10860|피해시설유형코드|DINSTLYCD|피해시설유형코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:11555|화생방공격구분코드|NBCADCD|화생방공격구분코드_C1",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:11555|화생방공격구분코드|NBCADCD|화생방공격구분코드_C1",
+      "weight": 1000,
+      "id": "synset:11555|화생방공격구분코드|NBCADCD|화생방공격구분코드_C1\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:2408|동원형태코드|MOBSHPCD|동원형태코드_C1",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:2408|동원형태코드|MOBSHPCD|동원형태코드_C1",
+      "weight": 1000,
+      "id": "synset:2408|동원형태코드|MOBSHPCD|동원형태코드_C1\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:9460|첩보분류코드|IFMCLCD|첩보분류코드_C1",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:9460|첩보분류코드|IFMCLCD|첩보분류코드_C1",
+      "weight": 1000,
+      "id": "synset:9460|첩보분류코드|IFMCLCD|첩보분류코드_C1\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:11563|화생방누출유형코드|NBCLEATYPECD|화생방누출유형코드_C1",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:11563|화생방누출유형코드|NBCLEATYPECD|화생방누출유형코드_C1",
+      "weight": 1000,
+      "id": "synset:11563|화생방누출유형코드|NBCLEATYPECD|화생방누출유형코드_C1\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:11579|화생방폭발형태코드|NBCEXPSHAPCD|화생방폭발형태코드_C1",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:11579|화생방폭발형태코드|NBCEXPSHAPCD|화생방폭발형태코드_C1",
+      "weight": 1000,
+      "id": "synset:11579|화생방폭발형태코드|NBCEXPSHAPCD|화생방폭발형태코드_C1\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:634|고가치표적범주코드|HVTTGTCTGCD|고가치표적범주코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:634|고가치표적범주코드|HVTTGTCTGCD|고가치표적범주코드_C2",
+      "weight": 1000,
+      "id": "synset:634|고가치표적범주코드|HVTTGTCTGCD|고가치표적범주코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:1597|기본정보분류코드|BASINFOCLCD|기본정보분류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:1597|기본정보분류코드|BASINFOCLCD|기본정보분류코드_C2",
+      "weight": 1000,
+      "id": "synset:1597|기본정보분류코드|BASINFOCLCD|기본정보분류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:5888|영상수집자산종류코드|IMGCLTRSKNCD|영상수집자산종류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:5888|영상수집자산종류코드|IMGCLTRSKNCD|영상수집자산종류코드_C2",
+      "weight": 1000,
+      "id": "synset:5888|영상수집자산종류코드|IMGCLTRSKNCD|영상수집자산종류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:6912|인간정보보고서분류코드|HMINTRPTCLSCD|인간정보보고서분류코드_C6",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:6912|인간정보보고서분류코드|HMINTRPTCLSCD|인간정보보고서분류코드_C6",
+      "weight": 1000,
+      "id": "synset:6912|인간정보보고서분류코드|HMINTRPTCLSCD|인간정보보고서분류코드_C6\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:7679|장애물종류코드|OBCGCD|장애물종류코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:7679|장애물종류코드|OBCGCD|장애물종류코드_C2",
+      "weight": 1000,
+      "id": "synset:7679|장애물종류코드|OBCGCD|장애물종류코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:8095|전시개편유형코드|WTRORGTPCD|전시개편유형코드_C1",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:8095|전시개편유형코드|WTRORGTPCD|전시개편유형코드_C1",
+      "weight": 1000,
+      "id": "synset:8095|전시개편유형코드|WTRORGTPCD|전시개편유형코드_C1\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:10642|표적범주코드|TGTCTGCD|표적범주코드_C2",
+      "target": "synset:curated:kind-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 종류·유형·형태 또는 분류 범주를 표현하는 코드임을 명시한다.",
+      "evidenceRef": "synset:10642|표적범주코드|TGTCTGCD|표적범주코드_C2",
+      "weight": 1000,
+      "id": "synset:10642|표적범주코드|TGTCTGCD|표적범주코드_C2\u0001synset:curated:kind-code\u0001hypernym"
+    },
+    {
+      "source": "synset:1639|기상지점코드|WTPSTCD|기상지점코드_C4",
+      "target": "synset:curated:spatial-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 지점·지역·구역을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:1639|기상지점코드|WTPSTCD|기상지점코드_C4",
+      "weight": 1000,
+      "id": "synset:1639|기상지점코드|WTPSTCD|기상지점코드_C4\u0001synset:curated:spatial-code\u0001hypernym"
+    },
+    {
+      "source": "synset:11306|해역코드|SARCD|해역코드_C4",
+      "target": "synset:curated:spatial-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 지점·지역·구역을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:11306|해역코드|SARCD|해역코드_C4",
+      "weight": 1000,
+      "id": "synset:11306|해역코드|SARCD|해역코드_C4\u0001synset:curated:spatial-code\u0001hypernym"
+    },
+    {
+      "source": "synset:3801|북한주소지역코드|NKADDRRNCD|북한주소지역코드_C4",
+      "target": "synset:curated:spatial-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 지점·지역·구역을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:3801|북한주소지역코드|NKADDRRNCD|북한주소지역코드_C4",
+      "weight": 1000,
+      "id": "synset:3801|북한주소지역코드|NKADDRRNCD|북한주소지역코드_C4\u0001synset:curated:spatial-code\u0001hypernym"
+    },
+    {
+      "source": "synset:6475|위치구분코드|LOCTNDVSCD|위치구분코드_C1",
+      "target": "synset:curated:spatial-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 지점·지역·구역을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:6475|위치구분코드|LOCTNDVSCD|위치구분코드_C1",
+      "weight": 1000,
+      "id": "synset:6475|위치구분코드|LOCTNDVSCD|위치구분코드_C1\u0001synset:curated:spatial-code\u0001hypernym"
+    },
+    {
+      "source": "synset:11190|해군구역코드|NAVYSCTRCD|해군구역코드_C6",
+      "target": "synset:curated:spatial-code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 지점·지역·구역을 구분하는 코드임을 명시한다.",
+      "evidenceRef": "synset:11190|해군구역코드|NAVYSCTRCD|해군구역코드_C6",
+      "weight": 1000,
+      "id": "synset:11190|해군구역코드|NAVYSCTRCD|해군구역코드_C6\u0001synset:curated:spatial-code\u0001hypernym"
+    },
+    {
+      "source": "synset:1236|군대부호코드|WARSBLCD|군대부호코드_C15",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:1236|군대부호코드|WARSBLCD|군대부호코드_C15",
+      "weight": 1000,
+      "id": "synset:1236|군대부호코드|WARSBLCD|군대부호코드_C15\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:6116|외국명코드|FCNCD|외국명코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:6116|외국명코드|FCNCD|외국명코드_C2",
+      "weight": 1000,
+      "id": "synset:6116|외국명코드|FCNCD|외국명코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:7902|적부대코드|ENMYUC|적부대코드_C7",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:7902|적부대코드|ENMYUC|적부대코드_C7",
+      "weight": 1000,
+      "id": "synset:7902|적부대코드|ENMYUC|적부대코드_C7\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:10658|표적성질코드|TGTCHARTRCD|표적성질코드_C3",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:10658|표적성질코드|TGTCHARTRCD|표적성질코드_C3",
+      "weight": 1000,
+      "id": "synset:10658|표적성질코드|TGTCHARTRCD|표적성질코드_C3\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:10838|피아식별코드|IFFCD|피아식별코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:10838|피아식별코드|IFFCD|피아식별코드_C2",
+      "weight": 1000,
+      "id": "synset:10838|피아식별코드|IFFCD|피아식별코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:2224|대화력표적규모코드|CFPTGSCALCD|대화력표적규모코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:2224|대화력표적규모코드|CFPTGSCALCD|대화력표적규모코드_C2",
+      "weight": 1000,
+      "id": "synset:2224|대화력표적규모코드|CFPTGSCALCD|대화력표적규모코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:2368|동원단계코드|MBPCD|동원단계코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:2368|동원단계코드|MBPCD|동원단계코드_C2",
+      "weight": 1000,
+      "id": "synset:2368|동원단계코드|MBPCD|동원단계코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:5273|시설종류부호코드|FKSGNCD|시설종류부호코드_C5",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:5273|시설종류부호코드|FKSGNCD|시설종류부호코드_C5",
+      "weight": 1000,
+      "id": "synset:5273|시설종류부호코드|FKSGNCD|시설종류부호코드_C5\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:1099|구름량기상코드|CAWCD|구름량기상코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:1099|구름량기상코드|CAWCD|구름량기상코드_C1",
+      "weight": 1000,
+      "id": "synset:1099|구름량기상코드|CAWCD|구름량기상코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:1766|기후현상코드|CLPRSTCD|기후현상코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:1766|기후현상코드|CLPRSTCD|기후현상코드_C2",
+      "weight": 1000,
+      "id": "synset:1766|기후현상코드|CLPRSTCD|기후현상코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:2073|대기안정도분류코드|ATSTCLSCD|대기안정도분류코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:2073|대기안정도분류코드|ATSTCLSCD|대기안정도분류코드_C1",
+      "weight": 1000,
+      "id": "synset:2073|대기안정도분류코드|ATSTCLSCD|대기안정도분류코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:5082|수집감지기종류코드|CLTNSNSRKDCD|수집감지기종류코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:5082|수집감지기종류코드|CLTNSNSRKDCD|수집감지기종류코드_C2",
+      "weight": 1000,
+      "id": "synset:5082|수집감지기종류코드|CLTNSNSRKDCD|수집감지기종류코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:7472|작용제지속성코드|AGNSTCNDBCD|작용제지속성코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:7472|작용제지속성코드|AGNSTCNDBCD|작용제지속성코드_C1",
+      "weight": 1000,
+      "id": "synset:7472|작용제지속성코드|AGNSTCNDBCD|작용제지속성코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:7945|적장비코드|ENMYFAMC|적장비코드_C8",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:7945|적장비코드|ENMYFAMC|적장비코드_C8",
+      "weight": 1000,
+      "id": "synset:7945|적장비코드|ENMYFAMC|적장비코드_C8\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:11577|화생방탐지방법코드|NBCDTMETCD|화생방탐지방법코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:11577|화생방탐지방법코드|NBCDTMETCD|화생방탐지방법코드_C2",
+      "weight": 1000,
+      "id": "synset:11577|화생방탐지방법코드|NBCDTMETCD|화생방탐지방법코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:5170|습도코드|HMDTYCD|습도코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:5170|습도코드|HMDTYCD|습도코드_C2",
+      "weight": 1000,
+      "id": "synset:5170|습도코드|HMDTYCD|습도코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:9798|축척코드|RDSCD|축척코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:9798|축척코드|RDSCD|축척코드_C2",
+      "weight": 1000,
+      "id": "synset:9798|축척코드|RDSCD|축척코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:11565|화생방살포고도코드|NBCSCTALTDCD|화생방살포고도코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:11565|화생방살포고도코드|NBCSCTALTDCD|화생방살포고도코드_C1",
+      "weight": 1000,
+      "id": "synset:11565|화생방살포고도코드|NBCSCTALTDCD|화생방살포고도코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:6917|인간정보출처코드|HMINTSRCD|인간정보출처코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:6917|인간정보출처코드|HMINTSRCD|인간정보출처코드_C2",
+      "weight": 1000,
+      "id": "synset:6917|인간정보출처코드|HMINTSRCD|인간정보출처코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:7469|작용제적용분류코드|AGNSTAPCLCD|작용제적용분류코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:7469|작용제적용분류코드|AGNSTAPCLCD|작용제적용분류코드_C1",
+      "weight": 1000,
+      "id": "synset:7469|작용제적용분류코드|AGNSTAPCLCD|작용제적용분류코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:8358|정보관계구분코드|INFRLDVCD|정보관계구분코드_C4",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:8358|정보관계구분코드|INFRLDVCD|정보관계구분코드_C4",
+      "weight": 1000,
+      "id": "synset:8358|정보관계구분코드|INFRLDVCD|정보관계구분코드_C4\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:1227|군국가구분코드|MILNATNDVCD|군국가구분코드_C3",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:1227|군국가구분코드|MILNATNDVCD|군국가구분코드_C3",
+      "weight": 1000,
+      "id": "synset:1227|군국가구분코드|MILNATNDVCD|군국가구분코드_C3\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:7232|임무할당코드|MSALTMTCD|임무할당코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:7232|임무할당코드|MSALTMTCD|임무할당코드_C2",
+      "weight": 1000,
+      "id": "synset:7232|임무할당코드|MSALTMTCD|임무할당코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:7981|적화생방투발수단코드|ENMYNBCTSCD|적화생방투발수단코드_C3",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:7981|적화생방투발수단코드|ENMYNBCTSCD|적화생방투발수단코드_C3",
+      "weight": 1000,
+      "id": "synset:7981|적화생방투발수단코드|ENMYNBCTSCD|적화생방투발수단코드_C3\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:10741|표적획득출처코드|TGACQSRCECD|표적획득출처코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:10741|표적획득출처코드|TGACQSRCECD|표적획득출처코드_C2",
+      "weight": 1000,
+      "id": "synset:10741|표적획득출처코드|TGACQSRCECD|표적획득출처코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:4508|선굵기코드|LTKCD|선굵기코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:4508|선굵기코드|LTKCD|선굵기코드_C1",
+      "weight": 1000,
+      "id": "synset:4508|선굵기코드|LTKCD|선굵기코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:5217|시간단위코드|TIMEUNITCD|시간단위코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:5217|시간단위코드|TIMEUNITCD|시간단위코드_C1",
+      "weight": 1000,
+      "id": "synset:5217|시간단위코드|TIMEUNITCD|시간단위코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:11072|합동화력자산코드|JNFWASTCD|합동화력자산코드_C8",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:11072|합동화력자산코드|JNFWASTCD|합동화력자산코드_C8",
+      "weight": 1000,
+      "id": "synset:11072|합동화력자산코드|JNFWASTCD|합동화력자산코드_C8\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:11073|합동화력탄종코드|JNFWKNDAMNCD|합동화력탄종코드_C10",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:11073|합동화력탄종코드|JNFWKNDAMNCD|합동화력탄종코드_C10",
+      "weight": 1000,
+      "id": "synset:11073|합동화력탄종코드|JNFWKNDAMNCD|합동화력탄종코드_C10\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:4285|상급부대코드|SUCD|부대코드_C10",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:4285|상급부대코드|SUCD|부대코드_C10",
+      "weight": 1000,
+      "id": "synset:4285|상급부대코드|SUCD|부대코드_C10\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:4505|선구역통제수단구분코드|LNSCRMEDVCD|선구역통제수단구분코드_C8",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:4505|선구역통제수단구분코드|LNSCRMEDVCD|선구역통제수단구분코드_C8",
+      "weight": 1000,
+      "id": "synset:4505|선구역통제수단구분코드|LNSCRMEDVCD|선구역통제수단구분코드_C8\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:9058|지원편성구분코드|SNOCD|지원편성구분코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:9058|지원편성구분코드|SNOCD|지원편성구분코드_C1",
+      "weight": 1000,
+      "id": "synset:9058|지원편성구분코드|SNOCD|지원편성구분코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:9092|지형정보코드|TPGRPHINFOCD|지형정보코드_C8",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:9092|지형정보코드|TPGRPHINFOCD|지형정보코드_C8",
+      "weight": 1000,
+      "id": "synset:9092|지형정보코드|TPGRPHINFOCD|지형정보코드_C8\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:10012|타격수단코드|STRKMEANSCD|타격수단코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:10012|타격수단코드|STRKMEANSCD|타격수단코드_C2",
+      "weight": 1000,
+      "id": "synset:10012|타격수단코드|STRKMEANSCD|타격수단코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:10807|풍향코드|WDCD|풍향코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:10807|풍향코드|WDCD|풍향코드_C2",
+      "weight": 1000,
+      "id": "synset:10807|풍향코드|WDCD|풍향코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:22|D일코드|DDAYCD|D일코드_C3",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:22|D일코드|DDAYCD|D일코드_C3",
+      "weight": 1000,
+      "id": "synset:22|D일코드|DDAYCD|D일코드_C3\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:1130|구역구분코드|SCTRDVSCD|구역구분코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:1130|구역구분코드|SCTRDVSCD|구역구분코드_C1",
+      "weight": 1000,
+      "id": "synset:1130|구역구분코드|SCTRDVSCD|구역구분코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:1241|군민간구분코드|MILCIVILDVCD|군민간구분코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:1241|군민간구분코드|MILCIVILDVCD|군민간구분코드_C1",
+      "weight": 1000,
+      "id": "synset:1241|군민간구분코드|MILCIVILDVCD|군민간구분코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:3795|북한인물활동분류코드|NKPACTVCLCD|북한인물활동분류코드_C8",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:3795|북한인물활동분류코드|NKPACTVCLCD|북한인물활동분류코드_C8",
+      "weight": 1000,
+      "id": "synset:3795|북한인물활동분류코드|NKPACTVCLCD|북한인물활동분류코드_C8\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:4053|비행취소사유코드|FLYCNCRCD|비행취소사유코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:4053|비행취소사유코드|FLYCNCRCD|비행취소사유코드_C2",
+      "weight": 1000,
+      "id": "synset:4053|비행취소사유코드|FLYCNCRCD|비행취소사유코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:4907|수목밀집정도코드|TREECRWDRCD|수목밀집정도코드_C5",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:4907|수목밀집정도코드|TREECRWDRCD|수목밀집정도코드_C5",
+      "weight": 1000,
+      "id": "synset:4907|수목밀집정도코드|TREECRWDRCD|수목밀집정도코드_C5\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:9463|첩보수집부대구분코드|INCLUNTDVCD|첩보수집부대구분코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:9463|첩보수집부대구분코드|INCLUNTDVCD|첩보수집부대구분코드_C2",
+      "weight": 1000,
+      "id": "synset:9463|첩보수집부대구분코드|INCLUNTDVCD|첩보수집부대구분코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:10678|표적이동방향코드|TGTMVDRCD|표적이동방향코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:10678|표적이동방향코드|TGTMVDRCD|표적이동방향코드_C1",
+      "weight": 1000,
+      "id": "synset:10678|표적이동방향코드|TGTMVDRCD|표적이동방향코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:11148|항공작전지침기준구분코드|AODSTDDVSCD|항공작전지침기준구분코드_C1",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "정의가 대상·속성·범주를 표현하는 코드임을 명시한다. 세부 분류는 추가 판단하지 않는다.",
+      "evidenceRef": "synset:11148|항공작전지침기준구분코드|AODSTDDVSCD|항공작전지침기준구분코드_C1",
+      "weight": 1000,
+      "id": "synset:11148|항공작전지침기준구분코드|AODSTDDVSCD|항공작전지침기준구분코드_C1\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:9246|징후상태변경구분코드|INDSTCHGDVCD|징후상태변경구분코드_C2",
+      "target": "synset:curated:code",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "변경 구분도 코드의 한 종류다. 상태 자체의 분류라는 주장은 철회한다.",
+      "evidenceRef": "synset:9246|징후상태변경구분코드|INDSTCHGDVCD|징후상태변경구분코드_C2",
+      "weight": 1000,
+      "id": "synset:9246|징후상태변경구분코드|INDSTCHGDVCD|징후상태변경구분코드_C2\u0001synset:curated:code\u0001hypernym"
+    },
+    {
+      "source": "synset:meaning:required-quantity:cost-accounting",
+      "target": "synset:curated:quantity",
+      "type": "hypernym",
+      "reviewStatus": "inferred",
+      "provenance": "정의 기반 추론 · AI 검토",
+      "evidence": "원가회계 소비량도 양이나 분량이다. 일반 필요량의 하위어라고 단정하지 않음.",
+      "evidenceRef": "synset:meaning:required-quantity:cost-accounting",
+      "weight": 1000,
+      "id": "synset:meaning:required-quantity:cost-accounting\u0001synset:curated:quantity\u0001hypernym"
+    }
+  ],
+  "meanings": [
+    {
+      "id": "synset:3380|보고일시|RPT_DTTM|일시_DT",
+      "label": "{보고일시}",
+      "definition": "일의 내용이나 결과를 말이나 글로 알린 날짜와 시각",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3382|보고일자|RPTDT|일자_V8",
+      "label": "{보고일자}",
+      "definition": "1. 일에 관한 내용이나 결과를 말이나 글로 알린 날.\r\n\r\n2. 주어진 임무에 대하여 그 결과나 내용을 상급자나 명령을 내린 사람 또는 기관에게 알린 날",
+      "status": "draft_meaning",
+      "note": "두 설명은 보고한 날이라는 공통 의미를 갖는다. 별도 의미 분리는 현재 근거만으로 확정하지 않는다. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10641|표적번호|TGTNO|표적번호_V20",
+      "label": "{표적번호}",
+      "definition": "화력통제부대가 표적물에 부여하는 참조번호.",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1236|군대부호코드|WARSBLCD|군대부호코드_C15",
+      "label": "{군대부호코드}",
+      "definition": "아군과 적군 또는 그들의 전술적 움직임과 작전행동을 나타내는 부호를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10702|표적좌표|TGGRD|좌표_V15",
+      "label": "{표적좌표}",
+      "definition": "목표로 삼는 물건 또는 표지로 삼는 표의 평면이나 공간 안의 임의의 점의 위치를 나타내는 수나 수의 짝.",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6116|외국명코드|FCNCD|외국명코드_C2",
+      "label": "{외국명코드}",
+      "definition": "전 세계의 나라와 부속영토, 나라의 주요 구성 단위의 명칭에 고유하게 부여한 코드로 ISO3166-1에서 제시한 국제표준코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7902|적부대코드|ENMYUC|적부대코드_C7",
+      "label": "{적부대코드}",
+      "definition": "MIMS가 관리하는 적부대에 대한 구분 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3360|보고서번호|REPTNO|보고서번호_V20",
+      "label": "{보고서번호}",
+      "definition": "보고되는 문서를 관리하기 위해 부여되는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:2447|등록일시분초|RGST_DHMS|일시분초_V14",
+      "label": "{등록일시분초}",
+      "definition": "등록한 일시에 대한 일시분초",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10602|표적군대분류코드|GOTLRCLSCD|표적군대분류코드_C2",
+      "label": "{표적군대분류코드}",
+      "definition": "표적을 기준에 따라 크게 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:8191|전장장비연동ID|BTLEQITCNTID|전장장비연동ID_V10",
+      "label": "{전장장비연동ID}",
+      "definition": "전장체계에서 장비를 구분하기 위해 KJCCS에서 관리하는 식별ID",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1639|기상지점코드|WTPSTCD|기상지점코드_C4",
+      "label": "{기상지점코드}",
+      "definition": "비, 눈, 바람, 안개, 구름, 기온 등 대기 가운데서 일어나는 모든 물리적 현상을 관측하는 지점을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10658|표적성질코드|TGTCHARTRCD|표적성질코드_C3",
+      "label": "{표적성질코드}",
+      "definition": "표적에 대한 성질을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10608|표적군중분류코드|GOTGMDCLSCD|표적군중분류코드_C2",
+      "label": "{표적군중분류코드}",
+      "definition": "표적군의 대분류를 좀 더 자세히 나눠 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10838|피아식별코드|IFFCD|피아식별코드_C2",
+      "label": "{피아식별코드}",
+      "definition": "군대부호에서 적과 아군 등의 식별 형태를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10606|표적군소분류코드|GOTGSMCLSCD|표적군소분류코드_C2",
+      "label": "{표적군소분류코드}",
+      "definition": "표적군의 중분류를 좀 더 자세히 나눠 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:2224|대화력표적규모코드|CFPTGSCALCD|대화력표적규모코드_C2",
+      "label": "{대화력표적규모코드}",
+      "definition": "대화력전에서 사용하는 표적규모를 구분한 코드\r\n* KMTF 2.0 기준설계서 적용 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:2368|동원단계코드|MBPCD|동원단계코드_C2",
+      "label": "{동원단계코드}",
+      "definition": "동원단계(1~12단계)를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4032|비행운영번호|FLTOPNO|비행운영번호_V9",
+      "label": "{비행운영번호}",
+      "definition": "일자별, 대대별 비행순번",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4080|사격명령번호|FRORDNO|사격명령번호_V29",
+      "label": "{사격명령번호}",
+      "definition": "사격명령을 구분하는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5273|시설종류부호코드|FKSGNCD|시설종류부호코드_C5",
+      "label": "{시설종류부호코드}",
+      "definition": "표적의 기능별로 고유하게 지정된 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1099|구름량기상코드|CAWCD|구름량기상코드_C1",
+      "label": "{구름량기상코드}",
+      "definition": "화생방보고시 구름량에 따른 날씨를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1766|기후현상코드|CLPRSTCD|기후현상코드_C2",
+      "label": "{기후현상코드}",
+      "definition": "화생방보고시 기후현상을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:2073|대기안정도분류코드|ATSTCLSCD|대기안정도분류코드_C1",
+      "label": "{대기안정도분류코드}",
+      "definition": "화생방보고시 대기의 안정도를 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4037|비행일자|FLTDT|일자_V8",
+      "label": "{비행일자}",
+      "definition": "공중으로 날아가거나 날아다닌 날",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5082|수집감지기종류코드|CLTNSNSRKDCD|수집감지기종류코드_C2",
+      "label": "{수집감지기종류코드}",
+      "definition": "수집을 감지하는 기기를 관리하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5580|쏘티구간번호|SRTISCTNO|쏘티구간번호_V2",
+      "label": "{쏘티구간번호}",
+      "definition": "편조내 항공기들의 번호 각각에 호출부호로 사용하는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7471|작용제종류코드|AGNSTKNDCD|작용제종류코드_C4",
+      "label": "{작용제종류코드}",
+      "definition": "작용제 종류를 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7472|작용제지속성코드|AGNSTCNDBCD|작용제지속성코드_C1",
+      "label": "{작용제지속성코드}",
+      "definition": "작용제 지속성을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7945|적장비코드|ENMYFAMC|적장비코드_C8",
+      "label": "{적장비코드}",
+      "definition": "MIMS에서 부여한 장비 식별을 위한 기준코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11577|화생방탐지방법코드|NBCDTMETCD|화생방탐지방법코드_C2",
+      "label": "{화생방탐지방법코드}",
+      "definition": "화생방 탐지 방법을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:855|공역형태코드|ASFRMCD|공역형태코드_C2",
+      "label": "{공역형태코드}",
+      "definition": "공역을 표시하는 9가지 형태의 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1544|기능발휘상태코드|FUNDISTATCD|기능발휘상태코드_C1",
+      "label": "{기능발휘상태코드}",
+      "definition": "기능 발휘 상태를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5170|습도코드|HMDTYCD|습도코드_C2",
+      "label": "{습도코드}",
+      "definition": "화생방보고시 습도를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6552|유효풍속|EWSPD|풍속_F6,2",
+      "label": "{유효풍속}",
+      "definition": "원자운 속의 낙진입자가 아랫바람 쪽으로 전파되는 속도. 단위는 ㎞/HR로 표시하며, 낙진예측시에 사용됨.",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7660|장애물번호|OBSTNO|장애물번호_V20",
+      "label": "{장애물번호}",
+      "definition": "장애물을 구분하는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9798|축척코드|RDSCD|축척코드_C2",
+      "label": "{축척코드}",
+      "definition": "지도 축척을 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10214|통합임무명령서번호|ITONO|통합임무명령서번호_V10",
+      "label": "{통합임무명령서번호}",
+      "definition": "통합임무명령서를 식별하는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11565|화생방살포고도코드|NBCSCTALTDCD|화생방살포고도코드_C1",
+      "label": "{화생방살포고도코드}",
+      "definition": "화생방 살포 고도를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1019|관측일시|OBSVTN_DTTM|일시_DT",
+      "label": "{관측일시}",
+      "definition": "직접 보거나 기계로 천체나 기상의 상태 추이, 변화 등을 관찰하여 측정하는 일을 시행한 날짜와 시각",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4031|비행운영구분코드|FLYOPERDVSCD|비행운영구분코드_C2",
+      "label": "{비행운영구분코드}",
+      "definition": "비행계획 작성시, 비행운영현황을 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5885|영상수집감지기종류코드|IMGCLTSNKNCD|영상수집감지기종류코드_C2",
+      "label": "{영상수집감지기종류코드}",
+      "definition": "영상을 수집하는 감지기의 종류를 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5890|영상식별번호|IMGIDNO|영상식별번호_V20",
+      "label": "{영상식별번호}",
+      "definition": "영상의 수집수단별, 일자별로 순차적으로 관리되는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5919|영상종류코드|IMGTYCD|영상종류코드_C2",
+      "label": "{영상종류코드}",
+      "definition": "레이더 합성사진, 적외선 장비 및 사진촬영 등 영상자료의 종류를 나타내는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6166|요망효과코드|DSREFCTCD|요망효과코드_C1",
+      "label": "{요망효과코드}",
+      "definition": "군사적/비군사적 조치에 의한 결과로써 요망한 물리적 상태를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6917|인간정보출처코드|HMINTSRCD|인간정보출처코드_C2",
+      "label": "{인간정보출처코드}",
+      "definition": "인간정보의 출처를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7469|작용제적용분류코드|AGNSTAPCLCD|작용제적용분류코드_C1",
+      "label": "{작용제적용분류코드}",
+      "definition": "작용제가 적용되는 요소를 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:8358|정보관계구분코드|INFRLDVCD|정보관계구분코드_C4",
+      "label": "{정보관계구분코드}",
+      "definition": "정보와 정보간의 관계를 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:8725|주공격점번호|DMPINO|주공격점번호_V4",
+      "label": "{주공격점번호}",
+      "definition": "주공격점의 일련번호 정보",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1227|군국가구분코드|MILNATNDVCD|군국가구분코드_C3",
+      "label": "{군국가구분코드}",
+      "definition": "국가에 따른 군을 분류하여 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6231|우선순위번호|PONO|우선순위번호_I10",
+      "label": "{우선순위번호}",
+      "definition": "어떤 것을 먼저 차지하거나 사용할 수 있는 차례나 위치 등을 구분하기 위한 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6553|유효풍향|EFDWD|풍향_V10",
+      "label": "{유효풍향}",
+      "definition": "작은 입자(11,000M 고도에서 지상에 떨어지는데 3시간 소요되는 크기의 입자)가 바람을 통하여 떨어지는 동안의 이동거리와 방향을 나타낼 것이다. 지상원점에서 운고도 점까지의 선과 2/3축 고도 점까지 선이 이루는 각을 이등분하는 선을 긋고 이등분선의 도북 방위각을 도로써 측정한 각임.",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7232|임무할당코드|MSALTMTCD|임무할당코드_C2",
+      "label": "{임무할당코드}",
+      "definition": "임무수행을 지시하기 위한 목적으로 하나 또는 다수의 제대에 임무을 부여하기 위한 코드\r\n [ C4I 체계에서 다수의 무기체계와 연동시 연동을 통제하는 접점에서 다수의 무기체계에 전체 또는 특정 체계로 전문 송신시 사용.]",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7908|적설량|DSNWQNTY|적설량_F6,1",
+      "label": "{적설량}",
+      "definition": "쌓여 있는 눈의 분량",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7981|적화생방투발수단코드|ENMYNBCTSCD|적화생방투발수단코드_C3",
+      "label": "{적화생방투발수단코드}",
+      "definition": "적 화생방 투발 수단을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9467|첩보요청대상대분류코드|IFREQOLGCLCD|첩보요청대상대분류코드_C2",
+      "label": "{첩보요청대상대분류코드}",
+      "definition": "첩보요청대상을 구분하기 위한 대분류 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10741|표적획득출처코드|TGACQSRCECD|표적획득출처코드_C2",
+      "label": "{표적획득출처코드}",
+      "definition": "표적을 획득한 출처를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10860|피해시설유형코드|DINSTLYCD|피해시설유형코드_C2",
+      "label": "{피해시설유형코드}",
+      "definition": "피해 시설을 유형별로 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11555|화생방공격구분코드|NBCADCD|화생방공격구분코드_C1",
+      "label": "{화생방공격구분코드}",
+      "definition": "화생방공격을 생물, 화학, 핵 등으로 구분하여 관리하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:2080|대대번호|BNNO|대대번호_V3",
+      "label": "{대대번호}",
+      "definition": "소속 대대를 구분하는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:2408|동원형태코드|MOBSHPCD|동원형태코드_C1",
+      "label": "{동원형태코드}",
+      "definition": "동원의 형태(정상동원, 긴급동원)를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4508|선굵기코드|LTKCD|선굵기코드_C1",
+      "label": "{선굵기코드}",
+      "definition": "아군통제수단 선굵기 정도를 나타낸 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4590|설치일시|INSTL_DTTM|일시_DT",
+      "label": "{설치일시}",
+      "definition": "어떤 일을 하는 데 필요한 기관이나 설비 등을 베풀어 둔 날짜와 시각",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5217|시간단위코드|TIMEUNITCD|시간단위코드_C1",
+      "label": "{시간단위코드}",
+      "definition": "통합결심지원과 위기조치예규의 평가 기준을 시간과 일로 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9460|첩보분류코드|IFMCLCD|첩보분류코드_C1",
+      "label": "{첩보분류코드}",
+      "definition": "첩보의 종류를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11072|합동화력자산코드|JNFWASTCD|합동화력자산코드_C8",
+      "label": "{합동화력자산코드}",
+      "definition": "합동화력운용과 관련된 통합 자산 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11073|합동화력탄종코드|JNFWKNDAMNCD|합동화력탄종코드_C10",
+      "label": "{합동화력탄종코드}",
+      "definition": "합동화력운용과 관련된 통합 탄종코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:195|강설량|AMTSNW|강설량_F6,1",
+      "label": "{강설량}",
+      "definition": "일정한 기간 동안 일정한 곳에 내린 눈의 양",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:198|강수량|AMTPRCPT|강수량_F6,1",
+      "label": "{강수량}",
+      "definition": "비, 눈, 우박, 안개 따위로 일정 기간 동안 일정한 곳에 내린 물의 총량",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1548|기능적상태구분코드|FNCTNLSTDVCD|기능적상태구분코드_C3",
+      "label": "{기능적상태구분코드}",
+      "definition": "적 기지의 기능상태를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3516|복구상태코드|RCVRYSCD|복구상태코드_C1",
+      "label": "{복구상태코드}",
+      "definition": "피해시설의 복구상태를 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4005|비행단번호|WNGNO|비행단번호_V3",
+      "label": "{비행단번호}",
+      "definition": "군사조직 편제에서 부대 단위 중 비행단에 부여된 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4285|상급부대코드|SUCD|부대코드_C10",
+      "label": "{상급부대코드}",
+      "definition": "지휘계통의 명령 라인상에 위치하며 명령을 내리고 지시할 수 있는 부대를 구분하는 10자리 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4505|선구역통제수단구분코드|LNSCRMEDVCD|선구역통제수단구분코드_C8",
+      "label": "{선구역통제수단구분코드}",
+      "definition": "선구역 통제 수단을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9058|지원편성구분코드|SNOCD|지원편성구분코드_C1",
+      "label": "{지원편성구분코드}",
+      "definition": "지원부대와 편성부대를 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9092|지형정보코드|TPGRPHINFOCD|지형정보코드_C8",
+      "label": "{지형정보코드}",
+      "definition": "화생방 피격상황 지형정보를 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9456|첨부파일종류명|ATCHFL_KND_NM|명_V50",
+      "label": "{첨부파일종류명}",
+      "definition": "전자 우편이나 문서 따위에 덧붙이는 파일을 부문별로 나누는 갈래의 이름",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10012|타격수단코드|STRKMEANSCD|타격수단코드_C2",
+      "label": "{타격수단코드}",
+      "definition": "타격하기 위한 방법 또는 도구를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10807|풍향코드|WDCD|풍향코드_C2",
+      "label": "{풍향코드}",
+      "definition": "바람의 방향을 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11000|한글명|HNGNM|명_V100",
+      "label": "{한글명}",
+      "definition": "한글로 된 이름",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11306|해역코드|SARCD|해역코드_C4",
+      "label": "{해역코드}",
+      "definition": "바다 위의 일정한 구역을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11562|화생방누출상태코드|NBCLEASTATCD|화생방누출상태코드_C1",
+      "label": "{화생방누출상태코드}",
+      "definition": "화생방 누출 상태를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11563|화생방누출유형코드|NBCLEATYPECD|화생방누출유형코드_C1",
+      "label": "{화생방누출유형코드}",
+      "definition": "화생방 누출 유형을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11579|화생방폭발형태코드|NBCEXPSHAPCD|화생방폭발형태코드_C1",
+      "label": "{화생방폭발형태코드}",
+      "definition": "화생방 폭발 형태를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:22|D일코드|DDAYCD|D일코드_C3",
+      "label": "{D일코드}",
+      "definition": "공격개시일을 기준으로 몇 일째인지 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:634|고가치표적범주코드|HVTTGTCTGCD|고가치표적범주코드_C2",
+      "label": "{고가치표적범주코드}",
+      "definition": "고가치 표적 범주를 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:974|관리일자|MGT_DATE|일자_V8",
+      "label": "{관리일자}",
+      "definition": "어떤 일의 사무를 맡아 처리하거나 시설이나 물건의 유지, 개량 등의 일을 맡아 수행한 날짜",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1002|관심타격지역번호|TAINO|관심타격지역번호_V4",
+      "label": "{관심타격지역번호}",
+      "definition": "관심타격지역(TAI) 를 구분하기 위한 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1130|구역구분코드|SCTRDVSCD|구역구분코드_C1",
+      "label": "{구역구분코드}",
+      "definition": "장애물설치지대의 구역의 종류를 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1241|군민간구분코드|MILCIVILDVCD|군민간구분코드_C1",
+      "label": "{군민간구분코드}",
+      "definition": "인사 군 민간 구분 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1597|기본정보분류코드|BASINFOCLCD|기본정보분류코드_C2",
+      "label": "{기본정보분류코드}",
+      "definition": "기본정보를 분류하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1647|기상코드|WTCD|기상코드_C2",
+      "label": "{기상코드}",
+      "definition": "기상관측보고에 쓰이는 일기상태를 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:1862|내외장부호|WTHNEXTRSIGN|내외장부호_V30",
+      "label": "{내외장부호}",
+      "definition": "항공기에 장착하는 내/외장 무기를 표현하는 부호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3200|배포여부|DSTRBTN_YN|여부_C1",
+      "label": "{배포여부}",
+      "definition": "신문이나 책자 등을 널리 나누었는지 여부",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3662|부대임무수행상태코드|TRMSTCD|부대임무수행상태코드_C1",
+      "label": "{부대임무수행상태코드}",
+      "definition": "부대 임무를 수행한 상태를 나타낸 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3795|북한인물활동분류코드|NKPACTVCLCD|북한인물활동분류코드_C8",
+      "label": "{북한인물활동분류코드}",
+      "definition": "북한인물의 활동을 분류하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3801|북한주소지역코드|NKADDRRNCD|북한주소지역코드_C4",
+      "label": "{북한주소지역코드}",
+      "definition": "북한 주소의 지역을 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:3802|북한지역행정구역관리번호|NKRASMNO|북한지역행정구역관리번호_I22",
+      "label": "{북한지역행정구역관리번호}",
+      "definition": "민사작전을 위해 북한지역행정구역 별로 부여한 구별 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4053|비행취소사유코드|FLYCNCRCD|비행취소사유코드_C2",
+      "label": "{비행취소사유코드}",
+      "definition": "비행이 취소된 사유를 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:4733|소요량|RQMQTY|량_F10",
+      "label": "{소요량 · 필요량}",
+      "definition": "필요로 하거나 요구되는 분량. 사업계획 또는 목표 성취에 필요한 장비, 물자, 용역, 자금 등의 필요량.",
+      "status": "sense_split",
+      "note": "원문의 광의·협의 구분에 따른 두 작업 의미. KMTF 필드가 어느 의미인지 확정하지 않았으며 원본 사용 횟수를 복제하지 않음."
+    },
+    {
+      "id": "synset:4907|수목밀집정도코드|TREECRWDRCD|수목밀집정도코드_C5",
+      "label": "{수목밀집정도코드}",
+      "definition": "화생방 피격상황 수목정도를 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5104|수집일자|CLTN_DATE|일자_V8",
+      "label": "{수집일자}",
+      "definition": "취미나 연구를 위하여 물건, 재료, 정보 등을 찾아 모은 날짜",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5286|시인상태코드|APRSACD|시인상태코드_C1",
+      "label": "{시인상태코드}",
+      "definition": "적정보에 대한 시인 상태를 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:5888|영상수집자산종류코드|IMGCLTRSKNCD|영상수집자산종류코드_C2",
+      "label": "{영상수집자산종류코드}",
+      "definition": "영상을 수집하는 자산의 종류를 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6475|위치구분코드|LOCTNDVSCD|위치구분코드_C1",
+      "label": "{위치구분코드}",
+      "definition": "위치를 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6725|이메일발송여부|EMAIL_SNDNG_YN|여부_C1",
+      "label": "{이메일발송여부}",
+      "definition": "컴퓨터의 단말기 이용자끼리 통신 회선을 이용하여 주고받는 글을 내보냈는지 여부",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:6912|인간정보보고서분류코드|HMINTRPTCLSCD|인간정보보고서분류코드_C6",
+      "label": "{인간정보보고서분류코드}",
+      "definition": "인간정보보고서를 기준에 따라 분류한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:7679|장애물종류코드|OBCGCD|장애물종류코드_C2",
+      "label": "{장애물종류코드}",
+      "definition": "장애물설치지대의 구역에 설치되는 장애물의 종류를 식별하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:8095|전시개편유형코드|WTRORGTPCD|전시개편유형코드_C1",
+      "label": "{전시개편유형코드}",
+      "definition": "전시에 부대의 개편 유형을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9246|징후상태변경구분코드|INDSTCHGDVCD|징후상태변경구분코드_C2",
+      "label": "{징후상태변경구분코드}",
+      "definition": "징후상태의 변경을 구분하기 위한 코드",
+      "status": "draft_meaning",
+      "note": "상태 자체가 아니라 상태의 변경을 구분한다. 상태 분류 코드라는 기존 상위 관계는 철회하고, 세부 의미 확인 전 코드까지만 분류한다. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9463|첩보수집부대구분코드|INCLUNTDVCD|첩보수집부대구분코드_C2",
+      "label": "{첩보수집부대구분코드}",
+      "definition": "첩보를 수집하는 부대를 관리하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9470|첩보요청번호|INFRQNO|첩보요청번호_V20",
+      "label": "{첩보요청번호}",
+      "definition": "첩보요청을 구분하는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:9659|최저고도|TRVLV|고도_F8,2",
+      "label": "{최저고도}",
+      "definition": "높이가 가장 낮은 고도",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10642|표적범주코드|TGTCTGCD|표적범주코드_C2",
+      "label": "{표적범주코드}",
+      "definition": "목표가 되는 표적이 되는 목록을 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10678|표적이동방향코드|TGTMVDRCD|표적이동방향코드_C1",
+      "label": "{표적이동방향코드}",
+      "definition": "표적이동방향을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:10854|피해보고식별번호|DRINO|피해보고식별번호_V50",
+      "label": "{피해보고식별번호}",
+      "definition": "피해보고를 식별하는 번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11140|항공임무명령서번호|ATONO|항공임무명령서번호_V10",
+      "label": "{항공임무명령서번호}",
+      "definition": "공군구성군사령관이 발간하는 작전명령번호",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11148|항공작전지침기준구분코드|AODSTDDVSCD|항공작전지침기준구분코드_C1",
+      "label": "{항공작전지침기준구분코드}",
+      "definition": "항공작전수행 지침의 기준을 구분하는 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11184|항적부호|TRKSGN|항적부호_V5",
+      "label": "{항적부호}",
+      "definition": "방공포병작전 수행에 필요한 항적을 구분하기 위하여 부여된 식별자",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:11190|해군구역코드|NAVYSCTRCD|해군구역코드_C6",
+      "label": "{해군구역코드}",
+      "definition": "해군이 관리하는 구역을 구분한 코드",
+      "status": "draft_meaning",
+      "note": "원문 정의가 지시하는 상위 개념만 연결. 전문가 확정 전 AI 검토 결과. 원문에서 정리한 작업 의미이며 KMTF 개별 사용 문맥의 의미 선택은 미확정."
+    },
+    {
+      "id": "synset:curated:datetime",
+      "label": "{일시}",
+      "definition": "날짜와 시각을 함께 나타내는 시간 정보.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:date",
+      "label": "{날짜}",
+      "definition": "어떤 날인지를 나타내는 달력상의 정보.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:symbol",
+      "label": "{부호}",
+      "definition": "대상을 표현하거나 구별하기 위해 사용하는 기호.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:identifier",
+      "label": "{식별자}",
+      "definition": "대상을 다른 대상과 구별하기 위해 부여한 부호.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:number",
+      "label": "{번호}",
+      "definition": "구별이나 순서를 나타내기 위해 부여하는 수 또는 수를 포함한 부호.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:id-number",
+      "label": "{식별번호}",
+      "definition": "특정 대상을 구별하기 위해 부여한 번호.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:code",
+      "label": "{코드}",
+      "definition": "약정된 체계에 따라 대상이나 범주를 표현하는 부호.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:state-code",
+      "label": "{상태 분류 코드}",
+      "definition": "대상이나 현상의 상태를 구분하여 표현하는 코드.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:kind-code",
+      "label": "{종류 분류 코드}",
+      "definition": "대상의 종류나 유형을 구분하여 표현하는 코드.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:spatial-code",
+      "label": "{공간 구분 코드}",
+      "definition": "지점이나 지역, 구역을 구분하여 표현하는 코드.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:name",
+      "label": "{명칭}",
+      "definition": "대상이나 종류를 부르는 이름.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:quantity",
+      "label": "{수량}",
+      "definition": "대상의 양이나 분량을 나타내는 크기.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:speed",
+      "label": "{속도}",
+      "definition": "이동이나 전파가 이루어지는 빠르기.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:angle",
+      "label": "{각도}",
+      "definition": "두 방향 사이의 벌어진 정도.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:altitude",
+      "label": "{고도}",
+      "definition": "기준면에 대한 수직 방향의 높이.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:coordinate",
+      "label": "{좌표}",
+      "definition": "공간 안에서 점의 위치를 나타내는 수 또는 수의 조합.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:curated:boolean",
+      "label": "{여부 정보}",
+      "definition": "어떤 사실이나 행위의 성립 여부를 나타내는 정보.",
+      "status": "editorial"
+    },
+    {
+      "id": "synset:meaning:required-quantity:cost-accounting",
+      "label": "{소요량 · 원가회계 소비량}",
+      "definition": "원가회계에서 일정 제품의 단위당 제조에 소요되는 소비량.",
+      "status": "sense_split",
+      "note": "원문의 광의·협의 구분에 따른 두 작업 의미. KMTF 필드가 어느 의미인지 확정하지 않았으며 원본 사용 횟수를 복제하지 않음."
+    }
+  ]
+}
